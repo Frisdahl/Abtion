@@ -10,7 +10,7 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: $clr-solid-pink;
+  // background-color: $clr-solid-pink;
   font-size: 62.5%;
   font-family: interstate, sans-serif;
   letter-spacing: 1.2px;
@@ -26,27 +26,27 @@ a {
 }
 
 p {
-  font-size: $font-xs-fallback;
-  font-size: $font-xs;
+  // font-size: $font-xs-fallback;
+  // font-size: $font-xs;
   line-height: 1.5;
 
-  @include breakpoint-up(computer) {
-    font-size: $font-sm-fallback;
-    font-size: $font-sm;
-  }
+  // @include breakpoint-up(computer) {
+  //   font-size: $font-sm-fallback;
+  //   font-size: $font-sm;
+  // }
 }
 
 h1 {
-  font-size: $font-l-fallback;
-  font-size: $font-l;
+  // font-size: $font-l-fallback;
+  // font-size: $font-l;
   font-weight: 500;
   margin-bottom: 5rem;
 }
 
 h2 {
   font-weight: 500;
-  font-size: $font-med-fallback;
-  font-size: $font-med;
+  // font-size: $font-med-fallback;
+  // font-size: $font-med;
   margin-bottom: 2rem;
 }
 
@@ -60,14 +60,14 @@ h3 {
 /* Buttons */
 
 .cta-secondary {
-  background-color: $clr-solid-pink;
+  // background-color: $clr-solid-pink;
   padding: 1.1rem 2.4rem;
   border-radius: 24px;
-  color: $clr-dawn-pink;
+  // color: $clr-dawn-pink;
   width: max-content;
   margin: 0 auto;
-  font-size: $font-sm-fallback;
-  font-size: $font-sm;
+  // font-size: $font-sm-fallback;
+  // font-size: $font-sm;
 }
 
 /* Spacing */
@@ -82,14 +82,14 @@ h3 {
 }
 
 /* Visibility */
-.hide-for-mobile {
-  @include breakpoint-down(ipad) {
-    display: none;
-  }
-}
+// .hide-for-mobile {
+//   @include breakpoint-down(ipad) {
+//     display: none;
+//   }
+// }
 
-.hide-for-desktop {
-  @include breakpoint-up(computer) {
-    display: none;
-  }
-}
+// .hide-for-desktop {
+//   @include breakpoint-up(computer) {
+//     display: none;
+//   }
+// }
