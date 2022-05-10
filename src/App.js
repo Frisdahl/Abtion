@@ -1,9 +1,9 @@
-import React from "react";
-import Header from "./header";
-import "./globals.scss";
+import React from 'react'
+import Header from './Components/header'
+import './scss/globals.scss'
 
 function App() {
-  return <Header />;
+    return <Header />
 }
 
-export default App;
+export default App
