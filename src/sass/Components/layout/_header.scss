@@ -1,0 +1,17 @@
+@import 'header';
+
+.parent {
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+}
+
+.child {
+    font-size: 50px;
+    color: aqua;
+    height: 20px;
+    background-color: blue;
+    @include md {
+        color: red;
+    }
+}
