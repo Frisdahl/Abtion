@@ -1,5 +1,6 @@
 import React from "react";
+import "./index.scss";
 
 export default function Header() {
-  return <div>Hello world</div>;
+  return <h1>hello world</h1>;
 }
