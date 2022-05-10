@@ -1,13 +1,14 @@
+// mixins
+@import 'utilities/mixins';
 @import 'globals';
 
 // Variables & functions
 
 // Base & layout
-
+@import 'layout/header';
 // Colors
-
-// mixins
 
 // Components
 
 // Utillities (margin, padding, opacity)
+@import 'utilities/reset';

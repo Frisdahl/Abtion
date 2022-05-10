@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from './sass/Components/header'
-import './styles/main.scss'
+import Header from './Components/header'
+import './sass/main.scss'
 
 function App() {
     return <Header />

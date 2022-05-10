@@ -1,5 +1,5 @@
 import React from 'react'
-import './layout/_header.scss'
+import '../sass/main.scss'
 
 // Styles
 
