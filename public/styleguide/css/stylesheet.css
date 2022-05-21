@@ -41,7 +41,7 @@ header {
 header .header-brand {
   font-size: 45px;
   font-weight: 700;
-  color: #fff;
+  color: #000;
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -97,7 +97,7 @@ hr {
 .sektion1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: auto;
   grid-template-areas: "text logo";
   grid-gap: 3%;
   padding: 0% 2%;
