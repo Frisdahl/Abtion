@@ -141,7 +141,7 @@ h3 {
 .farve1 {
   grid-column: 1/2;
   grid-row: 1/2;
-  background-color: #292929;
+  background-color: #000000;
   height: auto;
   height: 25%;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
@@ -153,14 +153,13 @@ h3 {
   box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);
   transition: 0.3s;
   height: 350px;
-  background-color: #2f2f2f;
   padding: 5%;
 }
 
 .farve2 {
   grid-column: 2/3;
   grid-row: 1/2;
-  background-color: #e3e3e3;
+  background-color: #2E3E5F;
   height: 25%;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
@@ -171,14 +170,13 @@ h3 {
   box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);
   transition: 0.3s;
   height: 350px;
-  background-color: #2f2f2f;
   padding: 5%;
 }
 
 .farve3 {
   grid-column: 3/4;
   grid-row: 1/2;
-  background-color: #bb86fc;
+  background-color: #9BEE8F;
   height: 25%;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
@@ -189,14 +187,13 @@ h3 {
   box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);
   transition: 0.3s;
   height: 350px;
-  background-color: #2f2f2f;
   padding: 5%;
 }
 
 .farve4 {
   grid-column: 4/5;
   grid-row: 1/2;
-  background-color: #3700b3;
+  background-color: #F5F5F5;
   height: 25%;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
@@ -207,14 +204,13 @@ h3 {
   box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);
   transition: 0.3s;
   height: 350px;
-  background-color: #2f2f2f;
   padding: 5%;
 }
 
 .farve5 {
   grid-column: 5/6;
   grid-row: 1/2;
-  background-color: #03dac5;
+  background-color: #FFFFFF;
   height: 25%;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
@@ -225,20 +221,17 @@ h3 {
   box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);
   transition: 0.3s;
   height: 350px;
-  background-color: #2f2f2f;
   padding: 5%;
 }
 
 .hexcolor {
   line-height: 2.5;
   font-size: 14px;
-  background-color: #2f2f2f;
 }
 
 .hexcolortext {
   line-height: 2.2;
   font-size: 14px;
-  background-color: #2f2f2f;
 }
 /*FARVER - SLUT*/
 
