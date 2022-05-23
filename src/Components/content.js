@@ -5,6 +5,7 @@ import '../sass/main.scss'
 import Slider from 'react-slick'
 // import bedroom from '../assets/bedroom.svg'
 // import xp from '../assets/xp.svg'
+// https://react-slick.neostack.com/docs/get-started/
 
 export default class SimpleSlider extends Component {
     render() {
