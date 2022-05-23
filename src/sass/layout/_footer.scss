@@ -1,0 +1,83 @@
+footer {
+    height: 1350px;
+    padding-top: 1024px;
+    background-color: #f5f5f5;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+.footer-container {
+    max-width: 1440px;
+
+    .footer-row-1 {
+        text-align: center;
+        width: 100vw;
+
+        #h2-footer {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 2.5rem;
+            line-height: 1.1;
+            font-weight: 400;
+            letter-spacing: -0.025rem;
+        }
+
+        .btn-newsletter {
+            padding: 0.8rem 4rem;
+            color: white;
+            margin-top: 50px;
+            background-color: black;
+            outline: none;
+            font-family: aktiv-grotesk, sans-serif;
+            border: none;
+            text-align: center;
+            margin-bottom: 75px;
+        }
+    }
+
+    .divider {
+        width: 100vw;
+        border: 1px solid #dfdfdf;
+    }
+
+    .footer-row-2 {
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        padding-bottom: 75px;
+
+        h4 {
+            font-size: 1.5rem;
+        }
+
+        .footer-margin {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        .column-1 {
+            width: 30vw;
+            #h3-contact {
+                font-size: 2rem;
+            }
+        }
+        .column-2 {
+            width: 15vw;
+            #odense {
+                margin-top: 25px;
+            }
+        }
+
+        .column-3 {
+            width: 15vw;
+        }
+
+        .column-4 {
+            width: 15vw;
+        }
+    }
+}
