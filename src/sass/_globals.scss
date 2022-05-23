@@ -12,8 +12,8 @@ html {
     scroll-behavior: smooth;
     // background-color: $clr-solid-pink;
     font-size: 62.5%;
-    font-family: Proxima Nova, sans-serif;
-    letter-spacing: 1.2px;
+    font-family: aktiv-grotesk, sans-serif;
+    letter-spacing: 0rem;
 }
 
 /* Typography */
@@ -28,7 +28,7 @@ a {
 p {
     // font-size: $font-xs-fallback;
     // font-size: $font-xs;
-    line-height: 1.5;
+    line-height: 1.6;
 
     // @include breakpoint-up(computer) {
     //   font-size: $font-sm-fallback;
@@ -44,9 +44,9 @@ h1 {
 }
 
 h2 {
-    font-weight: 500;
-    // font-size: $font-med-fallback;
-    // font-size: $font-med;
+    font-weight: 400;
+    font-size: 40px;
+    font-size: 4rem;
     margin-bottom: 2rem;
 }
 

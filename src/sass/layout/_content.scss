@@ -1,0 +1,111 @@
+.container1 {
+    max-width: 1200px;
+    width: 942px;
+    margin: 0 auto;
+    padding: 2rem;
+
+    .position-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15%;
+
+        .text-position {
+            grid-column: 1 / 2;
+            font-size: 14px;
+
+            h2 {
+                font-size: 40px;
+                font-size: 2.5rem;
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+
+    .svg-container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+
+        .bedroom-svg {
+            width: 100%;
+            max-width: 65%;
+            grid-column: 2 / 3;
+            margin: 0 auto;
+        }
+        .xp-svg {
+            width: 100%;
+            max-width: 45%;
+            grid-column: 2 / 3;
+            margin: 0 auto;
+        }
+    }
+
+    .button-alignment {
+        margin-top: 5rem;
+        display: flex;
+
+        .previous {
+            padding: 0.8rem 4rem;
+            color: black;
+            width: 5rem;
+            margin: 0 auto;
+            background-color: #f5f5f5;
+            outline: none;
+            font-family: aktiv-grotesk, sans-serif;
+            border: none;
+        }
+        .next {
+            padding: 0.8rem 4rem;
+            color: white;
+            width: 5rem;
+            margin: 0 auto;
+            background-color: black;
+            outline: none;
+            font-family: aktiv-grotesk, sans-serif;
+            border: none;
+            text-align: center;
+        }
+    }
+}
+
+.hide {
+    display: none !important;
+}
+
+.qualification-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15%;
+
+    .text-position {
+        grid-column: 1 / 2;
+        font-size: 14px;
+
+        h2 {
+            font-size: 40px;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+.svg-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+
+    .bedroom-svg {
+        width: 100%;
+        max-width: 65%;
+        grid-column: 2 / 3;
+        margin: 0 auto;
+    }
+    .xp-svg {
+        width: 100%;
+        max-width: 45%;
+        grid-column: 2 / 3;
+        margin: 0 auto;
+    }
+}

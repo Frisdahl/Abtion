@@ -1,9 +1,10 @@
 import React from 'react'
-import Header from './Components/header'
+import Content from './Components/content.js'
+
 import './sass/main.scss'
 
 function App() {
-    return <Header />
+    return <Content />
 }
 
 export default App
