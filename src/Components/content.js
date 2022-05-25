@@ -10,6 +10,7 @@ import laptop from '../assets/laptop.svg'
 import angelle from '../assets/angelle.webp'
 import coffee from '../assets/coffee.svg'
 import pairprog from '../assets/pairprogram.svg'
+import talks from '../assets/talks-illu.svg'
 // https://react-slick.neostack.com/docs/get-started/
 
 export default class PreviousNextMethods extends Component {
@@ -18,17 +19,19 @@ export default class PreviousNextMethods extends Component {
         this.next = this.next.bind(this)
         this.previous = this.previous.bind(this)
     }
+
     next() {
         this.slider.slickNext()
     }
     previous() {
         this.slider.slickPrev()
     }
+
     render() {
         const settings = {
             dots: false,
             infinite: false,
-            speed: 350,
+            speed: 300,
             slidesToShow: 1,
             slidesToScroll: 1,
         }
@@ -36,15 +39,15 @@ export default class PreviousNextMethods extends Component {
             <div>
                 <Slider ref={c => (this.slider = c)} {...settings}>
                     <div key={1}>
-                        <div class="container1">
-                            <div class="position-grid">
-                                <div class="text-position">
+                        <div className="container1">
+                            <div className="position-grid">
+                                <div className="text-position">
                                     <h2>The Position</h2>
                                     <p>
                                         Hey! Yeah, we are happy that we caught
                                         your attention. Welcome!
                                     </p>
-                                    <p>&zwj;</p>
+
                                     <p>
                                         Abtion is a digital agency. We design
                                         and build digital products for others.
@@ -54,7 +57,7 @@ export default class PreviousNextMethods extends Component {
                                         like-minded and given a unique
                                         opportunity to learn and grow.
                                     </p>
-                                    <p>&zwj;</p>
+
                                     <p>
                                         At Abtion, we focus on delivering value
                                         to our clients. Our way of working is
@@ -64,7 +67,7 @@ export default class PreviousNextMethods extends Component {
                                         decisions. We talk daily with our
                                         clients and debate solutions in teams.
                                     </p>
-                                    <p>&zwj;</p>
+
                                     <p>
                                         At Abtion, you will work with different
                                         technologies, teams, and clients. It's
@@ -73,15 +76,15 @@ export default class PreviousNextMethods extends Component {
                                         it.
                                     </p>
                                 </div>
-                                <div class="svg-container">
+                                <div className="svg-container">
                                     <img
                                         src={bedroom}
-                                        class="bedroom-svg"
+                                        className="bedroom-svg"
                                         alt="bedroom illustration"
                                     ></img>
                                     <img
                                         src={xp}
-                                        class="xp-svg"
+                                        className="xp-svg"
                                         alt="eXtreme Programming illustration"
                                     ></img>
                                 </div>
@@ -89,9 +92,9 @@ export default class PreviousNextMethods extends Component {
                         </div>
                     </div>
                     <div key={2}>
-                        <div class="container1">
-                            <div class="qualification-grid">
-                                <div class="stacks-box grid-column-1">
+                        <div className="container1">
+                            <div className="qualification-grid">
+                                <div className="stacks-box grid-column-1">
                                     <h3>
                                         These are our preferred stack and
                                         frames:
@@ -141,7 +144,7 @@ export default class PreviousNextMethods extends Component {
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="stacks-box grid-column-2">
+                                <div className="stacks-box grid-column-2">
                                     <h3>
                                         Here is a list of our expectations to
                                         you:
@@ -187,9 +190,9 @@ export default class PreviousNextMethods extends Component {
                         </div>
                     </div>
                     <div key={3}>
-                        <div class="container1">
-                            <div class="position-grid">
-                                <div class="text-position">
+                        <div className="container1">
+                            <div className="position-grid">
+                                <div className="text-position">
                                     <h2>Abtion as a workplace</h2>
                                     <p>
                                         In Abtion, we are all employed on
@@ -202,7 +205,7 @@ export default class PreviousNextMethods extends Component {
                                         can learn more about our 4-day work week
                                         here.
                                     </p>
-                                    <p>&zwj;</p>
+
                                     <p>
                                         On Wednesdays, we all work from home. We
                                         call it "Work Away Wednesday." On the
@@ -217,13 +220,13 @@ export default class PreviousNextMethods extends Component {
                                         synchronizing our homework days, we can
                                         get the best of both worlds.
                                     </p>
-                                    <p>&zwj;</p>
+
                                     <p>
                                         Although we take time off every Friday,
                                         we also take holidays, of course. You
                                         get six weeks of vacation a year.
                                     </p>
-                                    <p>&zwj;</p>
+
                                     <p>
                                         We have two offices. One in Copenhagen
                                         and one in Odense, and we are roughly
@@ -234,22 +237,22 @@ export default class PreviousNextMethods extends Component {
                                         delicious lunch, served from the
                                         outside, every day.
                                     </p>
-                                    <p>&zwj;</p>
+
                                     <p>
                                         You can read much more about us at
                                         abtion.com or visit our internal
                                         guidelines at inside.abtion.com
                                     </p>
                                 </div>
-                                <div class="svg-container">
+                                <div className="svg-container">
                                     <img
                                         src={fourweek}
-                                        class="bedroom-svg"
+                                        className="bedroom-svg"
                                         alt="bedroom illustration"
                                     ></img>
                                     <img
                                         src={laptop}
-                                        class="bedroom-svg"
+                                        className="bedroom-svg"
                                         alt="eXtreme Programming illustration"
                                     ></img>
                                 </div>
@@ -257,9 +260,9 @@ export default class PreviousNextMethods extends Component {
                         </div>
                     </div>
                     <div key={4}>
-                        <div class="container1">
-                            <div class="position-grid">
-                                <div class="text-position">
+                        <div className="container1">
+                            <div className="position-grid">
+                                <div className="text-position">
                                     <h2>Abtion as a workplace</h2>
                                     <p>
                                         Send your resume to
@@ -269,7 +272,7 @@ export default class PreviousNextMethods extends Component {
                                         picture of you. We judge you solely on
                                         your competencies and experience.
                                     </p>
-                                    <p>&zwj;</p>
+
                                     <p>
                                         We are pretty thorough with our hiring
                                         process. It is important to us that we
@@ -277,24 +280,23 @@ export default class PreviousNextMethods extends Component {
                                         as it is vital for us to ensure that we
                                         are the right place for you.
                                     </p>
-                                    <p>&zwj;</p>
+
                                     <p>We look forward to receiving your CV.</p>
-                                    <p>&zwj;</p>
+
                                     <p>
                                         If you have any questions, we are happy
                                         to answer.
                                     </p>
-                                    <p>&zwj;</p>
 
-                                    <div class="contactperson-container">
+                                    <div className="contactperson-container">
                                         <img
                                             src={angelle}
                                             alt="Angelle Peters Chief of Staff"
                                         ></img>
                                         <div>
                                             <h3>Angelle Peters</h3>
-                                            <h3>Chief of Staff</h3>
-                                            <p>&zwj;</p>
+                                            <h4>Chief of Staff</h4>
+
                                             <p>anp@abtion.com</p>
                                             <p>91 97 81 64</p>
                                             <p>København</p>
@@ -302,7 +304,7 @@ export default class PreviousNextMethods extends Component {
                                     </div>
                                 </div>
 
-                                <div class="conversations">
+                                <div className="conversations flex-ai-c">
                                     <h3>
                                         Here is the conversations you can expect
                                         to go through:
@@ -310,16 +312,35 @@ export default class PreviousNextMethods extends Component {
                                     <div>
                                         <img
                                             src={coffee}
-                                            class="coffee-svg"
+                                            className="coffee-svg"
                                             alt="bedroom illustration"
                                         ></img>
                                         <img
                                             src={pairprog}
-                                            class="pair-svg"
+                                            className="pair-svg"
                                             alt="eXtreme Programming illustration"
                                         ></img>
                                     </div>
+                                    <img
+                                        src={talks}
+                                        className="convos-svg"
+                                        alt="eXtreme Programming illustration"
+                                    ></img>
+                                    <div className="convo-text">
+                                        <p>
+                                            Informal coffee talk, which
+                                            primarily aims to ensure that there
+                                            is good chemistry between us.
+                                        </p>
+                                        <p>
+                                            2 x "pairing session", where you, in
+                                            close collaboration with two
+                                            developers, solve a task.
+                                        </p>
+                                    </div>
+                                    <hr />
                                     <h2>iwanttowork@abtion.com</h2>
+                                    <hr />
                                 </div>
                             </div>
                         </div>

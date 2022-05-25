@@ -51,16 +51,18 @@
     left: 25%;
     padding: 0.8rem 4rem;
     color: black;
-    width: 5rem;
+    width: 125px;
+    white-space: nowrap;
     margin: 0 auto;
     background-color: #f5f5f5;
     outline: none;
     font-family: aktiv-grotesk, sans-serif;
     border: none;
     cursor: pointer;
+    font-size: 16px;
 }
 .previous:hover {
-    background-color: #7c7c7c;
+    opacity: 50%;
 }
 
 .next {
@@ -68,7 +70,9 @@
     left: 55%;
     padding: 0.8rem 4rem;
     color: white;
-    width: 5rem;
+    width: 125px;
+    white-space: nowrap;
+    font-size: 16px;
     margin: 0 auto;
     background-color: black;
     outline: none;
@@ -78,7 +82,7 @@
     cursor: pointer;
 }
 .next:hover {
-    background-color: #7c7c7c;
+    opacity: 50%;
 }
 
 .qualification-grid {
@@ -143,12 +147,6 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    h3 {
-        font-size: 20px;
-        font-size: 1.25rem;
-        margin-bottom: 1.5rem;
-        font-weight: 700;
-    }
 
     div {
         display: flex;
@@ -165,6 +163,16 @@
         max-width: 25%;
         grid-column: 2 / 3;
         margin: 0 auto;
+    }
+    .convos-svg {
+        width: 100%;
+        max-width: 75%;
+    }
+
+    hr {
+        width: 100%;
+        background-color: black;
+        border: 1px solid black;
     }
 }
 
@@ -184,12 +192,18 @@
         height: max-content;
 
         h3 {
-            font-size: 1.5rem;
-            font-weight: 400;
+            margin-bottom: 0;
+            margin-top: 0;
         }
         p {
-            font-size: 1.1rem;
-            line-height: 1.25;
+            line-height: 1.2;
+            margin: 0;
         }
     }
+}
+
+.convo-text p {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 4rem;
 }

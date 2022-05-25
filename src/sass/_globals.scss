@@ -10,7 +10,6 @@
 
 html {
     scroll-behavior: smooth;
-    // background-color: $clr-solid-pink;
     font-family: aktiv-grotesk, sans-serif;
     letter-spacing: 0;
 }
@@ -41,12 +40,12 @@ h2 {
 h3 {
     font-weight: 400;
     font-size: 2rem;
-    margin-bottom: 1rem;
 }
 h4 {
     font-weight: 400;
     font-size: 1.25rem;
     margin-bottom: 1rem;
+    margin-top: 0;
 }
 
 /* Buttons */
