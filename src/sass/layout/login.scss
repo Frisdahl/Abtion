@@ -1,0 +1,44 @@
+.login-container {
+    height: 775px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: aktiv-grotesk, sans-serif;
+
+    #forgot-password {
+        padding-bottom: 25px;
+    }
+
+    .btn-login {
+        margin-bottom: 45px;
+    }
+}
+
+.login {
+    width: 750px;
+    background-color: #f0eeed;
+    height: 775px;
+    width: 750px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 75px;
+}
+
+.input-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+
+    .input-email {
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-size: 1rem;
+        align-self: flex-start;
+    }
+}

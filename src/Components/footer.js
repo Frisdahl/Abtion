@@ -1,21 +1,20 @@
-import React from 'react'
-import '../sass/main.scss'
-
 const Footer = () => {
     return (
         <footer>
-            <div class="footer-container">
-                <div class="footer-row-1">
+            <div className="footer-container">
+                <div className="footer-row-1">
                     <h2 id="h2-footer">
                         Værdifulde indsigter <br /> og spændende artikler
                     </h2>
-                    <button class="btn-newsletter">Tilmeld nyhedsbrev</button>
+                    <button className="btn-newsletter">
+                        Tilmeld nyhedsbrev
+                    </button>
                 </div>
 
-                <div class="divider"></div>
+                <div className="divider"></div>
 
-                <div class="footer-row-2">
-                    <div class="column-1">
+                <div className="footer-row-2">
+                    <div className="column-1">
                         <h3 id="h3-contact">
                             Skal vi holde <br /> kontakten?
                         </h3>

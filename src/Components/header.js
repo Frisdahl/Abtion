@@ -1,5 +1,3 @@
-import React from 'react'
-import '../sass/main.scss'
 import Logo from '../assets/images/logo-sort.png'
 
 // Styles
@@ -7,13 +5,12 @@ import Logo from '../assets/images/logo-sort.png'
 export default function Header() {
     return (
         <header>
-            <div class="logo-container">
+            <div className="logo-container">
                 <img src={Logo} height={25} width={35} alt="" />
             </div>
 
             <nav>
                 <ul>
-                    <li>Cases</li>
                     <li>Om os</li>
                     <li>Viden</li>
                     <li>Karriere</li>
