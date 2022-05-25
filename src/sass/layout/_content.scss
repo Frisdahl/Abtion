@@ -59,6 +59,10 @@
     border: none;
     cursor: pointer;
 }
+.previous:hover {
+    background-color: #7c7c7c;
+}
+
 .next {
     position: absolute;
     left: 55%;
@@ -72,12 +76,9 @@
     border: none;
     text-align: center;
     cursor: pointer;
-    :hover {
-        background-color: black;
-    }
 }
-.hide {
-    display: none !important;
+.next:hover {
+    background-color: #7c7c7c;
 }
 
 .qualification-grid {
