@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import '../sass/main.scss'
-//import '~slick-carousel/slick/slick.css'
-//import '~slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
+
+//Assets
 import bedroom from '../assets/bedroom.svg'
 import xp from '../assets/xp.svg'
 import fourweek from '../assets/4dww.svg'
@@ -23,6 +23,7 @@ export default class PreviousNextMethods extends Component {
     next() {
         this.slider.slickNext()
     }
+
     previous() {
         this.slider.slickPrev()
     }
@@ -35,8 +36,33 @@ export default class PreviousNextMethods extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
         }
+
         return (
             <div>
+                <ol id="prog" className="progress-track">
+                    <li className="progress-1 test">
+                        <div className="icon-wrap"></div>
+                        <span className="progress-text">The position</span>
+                    </li>
+
+                    <li className="progress-2 test">
+                        <div className="icon-wrap"></div>
+                        <span className="progress-text">Qualifications</span>
+                    </li>
+
+                    <li className="progress-3 test">
+                        <div className="icon-wrap"></div>
+                        <span className="progress-text2">
+                            Abtion as a workplace
+                        </span>
+                    </li>
+
+                    <li className="progress-4 test">
+                        <div className="icon-wrap2"></div>
+                        <span className="progress-text3">Apply</span>
+                    </li>
+                </ol>
+
                 <Slider ref={c => (this.slider = c)} {...settings}>
                     <div key={1}>
                         <div className="container1">

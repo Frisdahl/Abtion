@@ -1,3 +1,107 @@
+/** Colors **/
+.green {
+    border-top: 5px solid #7df283 !important;
+
+    div {
+        background-color: #7df283 !important;
+    }
+}
+
+ol {
+    &.progress-track {
+        display: table;
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 2em 0;
+        table-layout: fixed;
+        width: 65%;
+
+        li {
+            display: table-cell;
+            line-height: 3em;
+            position: relative;
+            border-top: 5px solid black;
+
+            .progress-text {
+                position: relative;
+                top: 10px;
+                right: 2rem;
+            }
+            .progress-text2 {
+                position: relative;
+                top: 10px;
+                right: 3.5rem;
+            }
+            .progress-text3 {
+                position: relative;
+                top: 10px;
+            }
+            .icon-wrap {
+                background-color: black;
+                border-radius: 50%;
+                bottom: 1.5em;
+                color: #fff;
+                display: block;
+                height: 2.5em;
+                margin: 0 0 -2em;
+                position: relative;
+                width: 2.5em;
+            }
+
+            &.progress-4 {
+                width: 0;
+            }
+            .icon-wrap2 {
+                background-color: black;
+                border-radius: 50%;
+                bottom: 1.5em;
+                color: #fff;
+                display: block;
+                margin: 0 0 -2em;
+
+                height: 2.5em;
+                position: relative;
+                width: 2.5em;
+            }
+
+            /* &.progress-done {
+                border-top: 7px solid lightGreen;
+                transition: border-color 1s ease-in-out;
+                -webkit-transition: border-color 1s ease-in-out;
+                -moz-transition: border-color 1s ease-in-out;
+
+                &.progress-current {
+                    .icon-wrap {
+                        background-color: #7df283;
+                    }
+                }
+
+                .icon-wrap {
+                    background-color: #7df283;
+                }
+            }
+
+            &.progress-todo {
+                border-top: 7px solid black;
+                color: black;
+
+                .icon-wrap {
+                    background-color: black;
+
+                    border-radius: 50%;
+                    bottom: 1.5em;
+                    color: #fff;
+                    display: block;
+                    height: 2.5em;
+                    margin: 0 auto -2em;
+                    position: relative;
+                    width: 2.5em;
+                }
+            } */
+        }
+    }
+}
+
 .container1 {
     max-width: 1200px;
     width: 100vw;
