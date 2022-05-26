@@ -50,6 +50,7 @@ header .header-brand {
   align-self: center;
   justify-content: center;
   margin-left: 110px;
+  z-index: 100;
 }
 
 header .header-brand:hover {
@@ -82,17 +83,6 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #7DF283;
 }
-
-/*
-hr {
-  margin-left: 110px;
-  margin-bottom: 7px;
-  border-color: #7DF283;
-  border: 4px solid #7DF283;
-  width: 1225px;
-  margin-top: -10px;
-}
-*/
 
 .tekstillustrationer {
   z-index: 0;
