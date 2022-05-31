@@ -150,7 +150,7 @@ h3 {
 .sektion2 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: auto;
   margin-top: 2%;
   grid-gap: 0%;
   grid-column-gap: 3%;
