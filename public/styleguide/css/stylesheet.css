@@ -20,13 +20,13 @@ html {
   height: 100%;
   padding-top: 0;
   width: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
   scroll-behavior: smooth;
   color: #000;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
 }
 
 /* HEADER + NAV */
@@ -689,7 +689,7 @@ h3 {
   width: 80%;
   height: 110%;
   margin-left: 10%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
 }
@@ -830,7 +830,7 @@ h4 {
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
 }
 
 /*Back button*/
@@ -957,7 +957,7 @@ h4 {
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
 }
 
 /*Side menu knap*/
@@ -1005,7 +1005,7 @@ h4 {
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
 }
 
 /*Breadcrumbs*/
@@ -1059,7 +1059,7 @@ h4 {
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
 }
 
 /*Dropdown menu button*/
@@ -1168,7 +1168,7 @@ li img {
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
 }
 
 /*Home knap*/
@@ -1216,7 +1216,7 @@ li img {
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
 }
 
 /*Logout knap*/
@@ -1264,7 +1264,7 @@ li img {
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
 }
 
 /*Guide buttons (step 1)*/
@@ -1325,7 +1325,7 @@ li img {
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
 }
 
 /*Reset button*/
@@ -1385,7 +1385,7 @@ li img {
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
 }
 
 /*Previous page knap*/
@@ -1453,7 +1453,7 @@ li img {
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
 }
 
 /*Mext page knap*/
@@ -1501,7 +1501,7 @@ li img {
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
 }
 
 
@@ -1566,7 +1566,7 @@ li img {
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
 }
 
 /*Back knap*/
@@ -1614,7 +1614,7 @@ li img {
   height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
 }
 /*Knapper - SLUT*/
 
@@ -1733,7 +1733,7 @@ td img {
   grid-column: 2/3;
   grid-row: 1/2;
   height: auto;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
   width: 82%;
@@ -1793,7 +1793,7 @@ td img {
   width: 80%;
   height: auto;
   margin-left: 10%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "aktiv-grotesk", sans-serif;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
 }
