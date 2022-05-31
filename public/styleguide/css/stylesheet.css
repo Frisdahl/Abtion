@@ -1771,7 +1771,7 @@ td img {
 /*COLLAPSIBLE BOX - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible */
 
 .collapsible {
-  background-color: #7DF283;
+  background-color: #000;
   color: #ffff;
   cursor: pointer;
   padding: 1px 11px 1px 5px;
@@ -1790,7 +1790,8 @@ td img {
 
 .active,
 .collapsible:hover {
-  background-color: #555;
+  background-color: #7DF283;
+  color: #000;
 }
 
 .content {
