@@ -1716,7 +1716,7 @@ td img {
 }
 
 .collapsible-layout {
-  background-color: #7DF283;
+  background-color: #000;
   color: #ffff;
   cursor: pointer;
   padding: 1px 11px 1px 5px;
@@ -1733,7 +1733,8 @@ td img {
 
 .active,
 .collapsible-layout:hover {
-  background-color: #555;
+  background-color: #7DF283;
+  color: #000;
 }
 
 .content-layout {
