@@ -751,7 +751,6 @@ h4 {
     width: 500px;
   }
 
-
 .logininputs label {
     color: #fff;
     font-size: 16px;
@@ -788,10 +787,10 @@ h4 {
 
 .loginbtn {
   display: inline-block;
-  background-color: #7DF283;
-  border: 2px solid #7DF283;
+  background-color: #000;
+  border: 2px solid #000;
   border-radius: 4px;
-  color: black;
+  color: white;
   padding: 15px 32px;
   text-decoration: none;
   font-size: 18px;
@@ -805,8 +804,8 @@ h4 {
 }
 
 .collapsible-button1 {
-  background-color: #7DF283;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   cursor: pointer;
   padding: 1px 11px 1px 5px;
   width: 100%;
@@ -817,15 +816,14 @@ h4 {
 
   grid-column: 2/3;
   grid-row: 1/2;
-  background-color: #7DF283;
   height: 50px;
   position: relative;
 }
 
 .active,
 .collapsible-button1:hover {
-  background-color: #000;
-  color: #FFFFFF;
+  background-color: #7DF283;
+  color: #000;
 }
 
 .invisible {
@@ -937,8 +935,8 @@ h4 {
 }
 
 .collapsible-button2 {
-  background-color: #7DF283;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   cursor: pointer;
   padding: 1px 11px 1px 5px;
   width: 100%;
@@ -949,15 +947,14 @@ h4 {
 
   grid-column: 2/3;
   grid-row: 2/3;
-  background-color: #7DF283;
   height: 50px;
   position: relative;
 }
 
 .active,
 .collapsible-button2:hover {
-  background-color: #000;
-  color: #FFFFFF;
+  background-color: #7DF283;
+  color: #000;
 }
 
 .content-button2 {
@@ -986,8 +983,8 @@ h4 {
 }
 
 .collapsible-button3 {
-  background-color: #7DF283;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   cursor: pointer;
   padding: 1px 11px 1px 5px;
   width: 100%;
@@ -998,15 +995,14 @@ h4 {
 
   grid-column: 2/3;
   grid-row: 3/4;
-  background-color: #7DF283;
   height: 50px;
   position: relative;
 }
 
 .active,
 .collapsible-button3:hover {
-  background-color: #000;
-  color: #FFFFFF;
+  background-color: #7DF283;
+  color: #000;
 }
 
 .content-button3 {
@@ -1041,8 +1037,8 @@ h4 {
 }
 
 .collapsible-button4 {
-  background-color: #7DF283;
-  color: #ffff;
+  background-color: #000;
+  color: #fff;
   cursor: pointer;
   padding: 1px 11px 1px 5px;
   width: 100%;
@@ -1053,14 +1049,15 @@ h4 {
 
   grid-column: 2/3;
   grid-row: 4/5;
-  background-color: #7DF283;
   height: 50px;
   position: relative;
 }
 
 .active,
 .collapsible-button4:hover {
-  background-color: #555;
+  background-color: #7DF283;
+  color: #000;
+
 }
 
 .content-button4 {
@@ -1150,8 +1147,8 @@ li img {
 }
 
 .collapsible-button5 {
-  background-color: #7DF283;
-  color: #ffff;
+  background-color: #000;
+  color: #fff;
   cursor: pointer;
   padding: 1px 11px 1px 5px;
   width: 100%;
@@ -1162,14 +1159,14 @@ li img {
 
   grid-column: 2/3;
   grid-row: 5/6;
-  background-color: #7DF283;
   height: 50px;
   position: relative;
 }
 
 .active,
 .collapsible-button5:hover {
-  background-color: #555;
+  background-color: #7DF283;
+  color: #000;
 }
 
 .content-button5 {
@@ -1198,8 +1195,8 @@ li img {
 }
 
 .collapsible-button6 {
-  background-color: #7DF283;
-  color: #ffff;
+  background-color: #000;
+  color: #fff;
   cursor: pointer;
   padding: 1px 11px 1px 5px;
   width: 100%;
@@ -1210,14 +1207,14 @@ li img {
 
   grid-column: 2/3;
   grid-row: 6/7;
-  background-color: #7DF283;
   height: 50px;
   position: relative;
 }
 
 .active,
 .collapsible-button6:hover {
-  background-color: #555;
+  background-color: #7DF283;
+  color: #000;
 }
 
 .content-button6 {
@@ -1246,8 +1243,8 @@ li img {
 }
 
 .collapsible-button7 {
-  background-color: #7DF283;
-  color: #ffff;
+  background-color: #000;
+  color: #fff;
   cursor: pointer;
   padding: 1px 11px 1px 5px;
   width: 100%;
@@ -1258,14 +1255,14 @@ li img {
 
   grid-column: 2/3;
   grid-row: 7/8;
-  background-color: #7DF283;
   height: 50px;
   position: relative;
 }
 
 .active,
 .collapsible-button7:hover {
-  background-color: #555;
+  background-color: #7DF283;
+  color: #000;
 }
 
 .content-button7 {
@@ -1307,7 +1304,7 @@ li img {
 }
 
 .collapsible-button8 {
-  background-color: #7DF283;
+  background-color: #000;
   color: #ffff;
   cursor: pointer;
   padding: 1px 11px 1px 5px;
@@ -1319,14 +1316,14 @@ li img {
 
   grid-column: 2/3;
   grid-row: 8/9;
-  background-color: #7DF283;
   height: 50px;
   position: relative;
 }
 
 .active,
 .collapsible-button8:hover {
-  background-color: #555;
+  background-color: #7DF283;
+  color: #000;
 }
 
 .content-button8 {
@@ -1367,7 +1364,7 @@ li img {
 }
 
 .collapsible-button9 {
-  background-color: #7DF283;
+  background-color: #000;
   color: #ffff;
   cursor: pointer;
   padding: 1px 11px 1px 5px;
@@ -1379,14 +1376,14 @@ li img {
 
   grid-column: 2/3;
   grid-row: 9/10;
-  background-color: #7DF283;
   height: 50px;
   position: relative;
 }
 
 .active,
 .collapsible-button9:hover {
-  background-color: #555;
+  background-color: #7DF283;
+  color: #000;
 }
 
 .content-button9 {
@@ -1435,7 +1432,7 @@ li img {
 }
 
 .collapsible-button10 {
-  background-color: #7DF283;
+  background-color: #000;
   color: #ffff;
   cursor: pointer;
   padding: 1px 11px 1px 5px;
@@ -1447,14 +1444,14 @@ li img {
 
   grid-column: 2/3;
   grid-row: 10/11;
-  background-color: #7DF283;
   height: 50px;
   position: relative;
 }
 
 .active,
 .collapsible-button10:hover {
-  background-color: #555;
+  background-color: #7DF283;
+  color: #000;
 }
 
 .content-button10 {
@@ -1483,7 +1480,7 @@ li img {
 }
 
 .collapsible-button11 {
-  background-color: #7DF283;
+  background-color: #000;
   color: #ffff;
   cursor: pointer;
   padding: 1px 11px 1px 5px;
@@ -1495,14 +1492,14 @@ li img {
 
   grid-column: 2/3;
   grid-row:  11/12;
-  background-color: #7DF283;
   height: 50px;
   position: relative;
 }
 
 .active,
 .collapsible-button11:hover {
-  background-color: #555;
+  background-color: #7DF283;
+  color: #000;
 }
 
 .content-button11 {
@@ -1548,7 +1545,7 @@ li img {
 }
 
 .collapsible-button12 {
-  background-color: #7DF283;
+  background-color: #000;
   color: #ffff;
   cursor: pointer;
   padding: 1px 11px 1px 5px;
@@ -1560,14 +1557,14 @@ li img {
 
   grid-column: 2/3;
   grid-row: 12/13;
-  background-color: #7DF283;
   height: 50px;
   position: relative;
 }
 
 .active,
 .collapsible-button12:hover {
-  background-color: #555;
+  background-color: #7DF283;
+  color: #000;
 }
 
 .content-button12 {
@@ -1596,7 +1593,7 @@ li img {
 }
 
 .collapsible-button13 {
-  background-color: #7DF283;
+  background-color: #000;
   color: #ffff;
   cursor: pointer;
   padding: 1px 11px 1px 5px;
@@ -1608,14 +1605,14 @@ li img {
 
   grid-column: 2/3;
   grid-row: 13/14;
-  background-color: #7DF283;
   height: 50px;
   position: relative;
 }
 
 .active,
 .collapsible-button13:hover {
-  background-color: #555;
+  background-color: #7DF283;
+  color: #000;
 }
 
 .content-button13 {
