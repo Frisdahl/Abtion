@@ -59,6 +59,10 @@ header .header-brand:hover {
   color: #7DF283;
 }
 
+.indexnohover:hover {
+  color: #000 !important;
+}
+
 header nav {
   margin: auto;
 }
