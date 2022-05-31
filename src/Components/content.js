@@ -11,20 +11,25 @@ import angelle from '../assets/angelle.webp'
 import coffee from '../assets/coffee.svg'
 import pairprog from '../assets/pairprogram.svg'
 import talks from '../assets/talks-illu.svg'
-// https://react-slick.neostack.com/docs/get-started/
+// https://react-slick.neostack.com/docs/example/previous-next-methods
 
 export default class PreviousNextMethods extends Component {
     constructor(props) {
         super(props)
         this.next = this.next.bind(this)
         this.previous = this.previous.bind(this)
+        this.state = {
+            item: 1,
+        }
     }
 
     next() {
+        this.setState({ item: this.state.item + 1 })
         this.slider.slickNext()
     }
 
     previous() {
+        this.setState({ item: this.state.item - 1 })
         this.slider.slickPrev()
     }
 
@@ -32,37 +37,55 @@ export default class PreviousNextMethods extends Component {
         const settings = {
             dots: false,
             infinite: false,
-            speed: 300,
+            speed: 200,
             slidesToShow: 1,
             slidesToScroll: 1,
         }
 
         return (
             <div>
-                <ol id="prog" className="progress-track">
-                    <li className="progress-1 test">
-                        <div className="icon-wrap"></div>
-                        <span className="progress-text">The position</span>
-                    </li>
+                <div>
+                    <ol id="prog" className="progress-track">
+                        <li
+                            className={`${this.state.item >= 1 ? 'green' : ''}`}
+                        >
+                            <div className="icon-wrap"></div>
+                            <span className="progress-text">The position</span>
+                        </li>
 
-                    <li className="progress-2 test">
-                        <div className="icon-wrap"></div>
-                        <span className="progress-text">Qualifications</span>
-                    </li>
+                        <li
+                            className={`${this.state.item >= 2 ? 'green' : ''}`}
+                        >
+                            <div className="icon-wrap"></div>
+                            <span className="progress-text">
+                                Qualifications
+                            </span>
+                        </li>
 
-                    <li className="progress-3 test">
-                        <div className="icon-wrap"></div>
-                        <span className="progress-text2">
-                            Abtion as a workplace
-                        </span>
-                    </li>
+                        <li
+                            className={`${this.state.item >= 3 ? 'green' : ''}`}
+                        >
+                            <div className="icon-wrap"></div>
+                            <span className="progress-text2">
+                                Abtion as a workplace
+                            </span>
+                        </li>
 
-                    <li className="progress-4 test">
-                        <div className="icon-wrap2"></div>
-                        <span className="progress-text3">Apply</span>
-                    </li>
-                </ol>
-
+                        <li
+                            className={`progress-4 ${
+                                this.state.item >= 4 ? 'green' : ''
+                            }`}
+                        >
+                            <div className="icon-wrap2"></div>
+                            <span
+                                href={this.state.item >= 3}
+                                className="progress-text3"
+                            >
+                                Apply
+                            </span>
+                        </li>
+                    </ol>
+                </div>
                 <Slider ref={c => (this.slider = c)} {...settings}>
                     <div key={1}>
                         <div className="container1">
@@ -365,7 +388,9 @@ export default class PreviousNextMethods extends Component {
                                         </p>
                                     </div>
                                     <hr />
-                                    <h2>iwanttowork@abtion.com</h2>
+                                    <a href="mailto:iwanttowork@abtion.com">
+                                        iwanttowork@abtion.com
+                                    </a>
                                     <hr />
                                 </div>
                             </div>
@@ -373,11 +398,21 @@ export default class PreviousNextMethods extends Component {
                     </div>
                 </Slider>
                 <div>
-                    <button className="previous" onClick={this.previous}>
+                    <button
+                        disabled={this.state.item <= 1}
+                        className="previous"
+                        onClick={this.previous}
+                    >
                         Previous
                     </button>
-                    <button className="next" onClick={this.next}>
-                        Next
+                    <button
+                        disabled={this.state.item >= 4}
+                        className={`next ${
+                            this.state.item >= 4 ? 'greenBtn' : ''
+                        }`}
+                        onClick={this.next}
+                    >
+                        {`${this.state.item >= 4 ? 'Apply' : 'Next'}`}
                     </button>
                 </div>
             </div>
