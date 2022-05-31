@@ -11,6 +11,8 @@ import angelle from '../assets/angelle.webp'
 import coffee from '../assets/coffee.svg'
 import pairprog from '../assets/pairprogram.svg'
 import talks from '../assets/talks-illu.svg'
+import biglaptop from '../assets/biglaptop.svg'
+import arrow from '../assets/arrow.svg'
 // https://react-slick.neostack.com/docs/example/previous-next-methods
 
 export default class PreviousNextMethods extends Component {
@@ -44,6 +46,17 @@ export default class PreviousNextMethods extends Component {
 
         return (
             <div>
+                <div className="heading">
+                    <a href="https://abtion-website.webflow.io/karriere">
+                        <img src={arrow} alt="Big laptop svg" />
+                        <div>Tilbage til karriere</div>
+                    </a>
+                    <h3>Stillingsopslag</h3>
+                    <h1>JavaScript Developer</h1>
+                </div>
+                <section className="bigHeader">
+                    <img src={biglaptop} alt="big laptop svg"></img>
+                </section>
                 <div>
                     <ol id="prog" className="progress-track">
                         <li
@@ -354,10 +367,10 @@ export default class PreviousNextMethods extends Component {
                                 </div>
 
                                 <div className="conversations flex-ai-c">
-                                    <h3>
+                                    <h4>
                                         Here is the conversations you can expect
                                         to go through:
-                                    </h3>
+                                    </h4>
                                     <div>
                                         <img
                                             src={coffee}
@@ -397,7 +410,7 @@ export default class PreviousNextMethods extends Component {
                         </div>
                     </div>
                 </Slider>
-                <div>
+                <div className="center">
                     <button
                         disabled={this.state.item <= 1}
                         className="previous"
