@@ -58,19 +58,19 @@ export default class PreviousNextMethods extends Component {
                     <img src={biglaptop} alt="big laptop svg"></img>
                 </section>
                 <div>
-                    <ol id="prog" className="progress-track">
+                    <ol className="progress-track">
                         <li
                             className={`${this.state.item >= 1 ? 'green' : ''}`}
                         >
                             <div className="icon-wrap"></div>
-                            <span className="progress-text">The position</span>
+                            <span className="progress-text">Position</span>
                         </li>
 
                         <li
                             className={`${this.state.item >= 2 ? 'green' : ''}`}
                         >
                             <div className="icon-wrap"></div>
-                            <span className="progress-text">
+                            <span className="progress-text phone">
                                 Qualifications
                             </span>
                         </li>
@@ -79,9 +79,7 @@ export default class PreviousNextMethods extends Component {
                             className={`${this.state.item >= 3 ? 'green' : ''}`}
                         >
                             <div className="icon-wrap"></div>
-                            <span className="progress-text2">
-                                Abtion as a workplace
-                            </span>
+                            <span className="progress-text2">Workplace</span>
                         </li>
 
                         <li
@@ -314,7 +312,7 @@ export default class PreviousNextMethods extends Component {
                                     ></img>
                                     <img
                                         src={laptop}
-                                        className="bedroom-svg"
+                                        className="xp-svg bedroom-svg"
                                         alt="eXtreme Programming illustration"
                                     ></img>
                                 </div>
@@ -323,9 +321,9 @@ export default class PreviousNextMethods extends Component {
                     </div>
                     <div key={4}>
                         <div className="container1">
-                            <div className="position-grid">
+                            <div className="position-grid phone-none-grid">
                                 <div className="text-position">
-                                    <h2>Abtion as a workplace</h2>
+                                    <h2>How to apply</h2>
                                     <p>
                                         Send your resume to
                                         iwanttowork@abtion.com. We are not
@@ -419,7 +417,7 @@ export default class PreviousNextMethods extends Component {
                         Previous
                     </button>
                     <button
-                        disabled={this.state.item >= 4}
+                        disabled={this.state.item >= 5}
                         className={`next ${
                             this.state.item >= 4 ? 'greenBtn' : ''
                         }`}

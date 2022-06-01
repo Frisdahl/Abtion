@@ -362,3 +362,107 @@ ol {
     text-align: center;
     margin-bottom: 4rem;
 }
+
+//MEDIA QUERIES
+
+@media screen and (max-width: 600px) {
+    .heading {
+        grid-template-columns: 1fr;
+
+        h1 {
+            margin: 0;
+        }
+    }
+
+    .bigHeader {
+        width: 90vw;
+
+        img {
+            max-width: 60%;
+        }
+    }
+
+    ol.progress-track {
+        margin: 0 auto;
+        padding: 0 2rem 0 0;
+        width: 90%;
+    }
+
+    ol.progress-track li .progress-text {
+        right: 0;
+    }
+    .phone {
+        right: 1.5rem !important;
+    }
+
+    ol.progress-track li .progress-text2 {
+        right: 1rem;
+    }
+    ol.progress-track li .progress-text3 {
+        margin-left: -0.3rem;
+    }
+
+    .container1 .position-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        grid-gap: 0;
+    }
+    .container1 .svg-container {
+        flex-direction: row;
+    }
+
+    .bedroom-svg {
+        grid-row: 2 / 3;
+        max-width: 100% !important;
+    }
+    .xp-svg {
+        display: none !important;
+    }
+
+    .center {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .next {
+        margin-bottom: 2rem;
+    }
+
+    .qualification-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 1%;
+    }
+    .qualification-grid .stacks-box {
+        padding: 0.5rem 2rem;
+    }
+    .qualification-grid .grid-column-2 {
+        grid-column: 1 / 2;
+    }
+    .contactperson-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        width: fit-content;
+        padding: 2rem 1rem;
+        margin: 0;
+        grid-gap: 1rem;
+
+        div {
+            grid-column: 1/2;
+            width: fit-content;
+            margin: 0 auto;
+        }
+        img {
+            width: 100%;
+            max-width: 75%;
+            margin: 0 auto;
+        }
+    }
+    .phone-none-grid {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .conversations a {
+        font-size: 1.5rem;
+    }
+}
