@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import UploadResume from '../Components/uploadResume'
 import MyProfile from '../Components/myProfile'
 

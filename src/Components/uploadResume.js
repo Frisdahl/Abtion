@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 const UploadResume = () => {
     return (
         <div className="apply-container">

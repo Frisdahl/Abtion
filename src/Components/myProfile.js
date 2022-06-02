@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 const MyProfile = () => {
     return (
         <div className="profile-input-container">
