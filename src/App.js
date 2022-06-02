@@ -1,4 +1,5 @@
 import React from 'react'
+import Content from './Components/content.js'
 import './sass/main.scss'
 
 // components
@@ -11,15 +12,18 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
     return (
+        <>
         <Router>
             <div className="App">
                 <Header />
+                <Content />
                 <Routes>
                     <Route path="/login" element={<Login />} />
                 </Routes>
                 <Footer />
             </div>
         </Router>
+        </>
     )
 }
 
