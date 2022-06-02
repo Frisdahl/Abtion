@@ -26,6 +26,7 @@ export default class PreviousNextMethods extends Component {
     }
 
     next() {
+
         this.setState({ item: this.state.item + 1 })
         this.slider.slickNext()
     }
