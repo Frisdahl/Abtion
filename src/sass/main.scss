@@ -5,12 +5,18 @@
 // Variables & functions
 
 // Base & layout
-@import 'layout/header';
-@import 'layout/footer';
 @import 'layout/login';
+@import 'layout/forgotPassword';
+@import 'layout/accountSettings';
 
 // Colors
 
 // Components
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/accountSettings';
+@import 'layout/uploadResume';
+@import 'layout/myProfile';
 
 // Utillities (margin, padding, opacity)

@@ -1,0 +1,28 @@
+.profile-input-container {
+    width: 35%;
+    margin: 50px;
+
+    p {
+        padding-top: 20px;
+    }
+
+    .btn-save {
+        width: 15%;
+    }
+
+    .btn-logout {
+        width: 15%;
+        color: black;
+        background-color: #ffffff;
+    }
+
+    span {
+        color: red;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    input {
+        width: 100%;
+    }
+}
