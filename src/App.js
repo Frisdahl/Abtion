@@ -1,4 +1,5 @@
 import React from 'react'
+import Content from './Components/content.js'
 import './sass/main.scss'
 
 // components
@@ -16,30 +17,32 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
     return (
-        <Router>
-            <div className="App">
-                <Header />
-                <div className="content">
-                    <Routes>
-                        <Route exact path="/"></Route>
-                        <Route path="/login" element={<Login />} />
-                        <Route
-                            path="/createAccount"
-                            element={<CreateAccount />}
-                        />
-                        <Route
-                            path="/forgotPassword"
-                            element={<ForgotPassword />}
-                        />
-                        <Route
-                            path="/accountSettings"
-                            element={<AccountSettings />}
-                        />
-                    </Routes>
+        <>
+            <Router>
+                <div className="App">
+                    <Header />
+                    <div className="content">
+                        <Routes>
+                            <Route exact path="/"></Route>
+                            <Route path="/login" element={<Login />} />
+                            <Route
+                                path="/createAccount"
+                                element={<CreateAccount />}
+                            />
+                            <Route
+                                path="/forgotPassword"
+                                element={<ForgotPassword />}
+                            />
+                            <Route
+                                path="/accountSettings"
+                                element={<AccountSettings />}
+                            />
+                        </Routes>
+                    </div>
+                    <Footer />
                 </div>
-                <Footer />
-            </div>
-        </Router>
+            </Router>
+        </>
     )
 }
 
