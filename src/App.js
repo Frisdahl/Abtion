@@ -5,7 +5,13 @@ import './sass/main.scss'
 // components
 import Footer from './Components/footer'
 import Header from './Components/header'
-import Login from './Components/login'
+
+// pages
+import Login from './Pages/login'
+import CreateAccount from './Pages/createAccount'
+import ForgotPassword from './Pages/forgotPassword'
+import AccountSettings from './Pages/accountSettings'
+import StatusApplication from './Pages/statusApplication'
 
 // router
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
@@ -13,16 +19,38 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 function App() {
     return (
         <>
-        <Router>
-            <div className="App">
-                <Header />
-                <Content />
-                <Routes>
-                    <Route path="/login" element={<Login />} />
-                </Routes>
-                <Footer />
-            </div>
-        </Router>
+            <Router>
+                <div className="App">
+                    <Header />
+                    <div className="content">
+                        <Routes>
+                            <Route
+                                exact
+                                path="/content"
+                                element={<Content />}
+                            ></Route>
+                            <Route path="/login" element={<Login />} />
+                            <Route
+                                path="/createAccount"
+                                element={<CreateAccount />}
+                            />
+                            <Route
+                                path="/forgotPassword"
+                                element={<ForgotPassword />}
+                            />
+                            <Route
+                                path="/accountSettings"
+                                element={<AccountSettings />}
+                            />
+                            <Route
+                                path="/statusApplication"
+                                element={<StatusApplication />}
+                            />
+                        </Routes>
+                    </div>
+                    <Footer />
+                </div>
+            </Router>
         </>
     )
 }

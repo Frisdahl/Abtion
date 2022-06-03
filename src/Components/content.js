@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import '../sass/main.scss'
 import Slider from 'react-slick'
+import { Link } from 'react-router-dom'
 
 //Assets
 import bedroom from '../assets/bedroom.svg'
@@ -26,7 +27,6 @@ export default class PreviousNextMethods extends Component {
     }
 
     next() {
-
         this.setState({ item: this.state.item + 1 })
         this.slider.slickNext()
     }
@@ -417,6 +417,7 @@ export default class PreviousNextMethods extends Component {
                     >
                         Previous
                     </button>
+
                     <button
                         disabled={this.state.item >= 5}
                         className={`next ${

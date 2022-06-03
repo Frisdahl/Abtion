@@ -1,0 +1,25 @@
+.account-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    width: 75vw;
+}
+
+.content {
+    .my-account {
+        width: 75vw;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}

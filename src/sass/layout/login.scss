@@ -7,11 +7,31 @@
     font-family: aktiv-grotesk, sans-serif;
 
     #forgot-password {
-        padding-bottom: 25px;
+        padding-bottom: 50px;
     }
 
     .btn-login {
-        margin-bottom: 45px;
+        margin: 25px 0px 25px 0px;
+    }
+
+    .heading-create-account {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        width: 80vw;
+        margin: 2rem auto;
+
+        a {
+            display: flex;
+            align-items: center;
+        }
+
+        img {
+            display: flex;
+            width: 100%;
+            max-width: 0.7rem;
+            margin-right: 0.5rem;
+        }
     }
 }
 
@@ -24,21 +44,28 @@
     align-items: center;
     flex-direction: column;
     padding-top: 75px;
+
+    #create-account {
+        cursor: pointer;
+        margin-bottom: 25px;
+    }
 }
 
 .input-container {
-    width: 50%;
+    width: 65%;
     display: flex;
     align-items: center;
     flex-direction: column;
     padding-bottom: 15px;
 
-    .input-email {
-        margin-bottom: 25px;
+    .input-login {
+        width: 100%;
     }
 
     p {
+        padding-top: 20px;
         font-size: 1rem;
+        font-weight: 400;
         align-self: flex-start;
     }
 }
