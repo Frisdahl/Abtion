@@ -801,7 +801,6 @@ h4 {
 }
 .next {
     justify-self: end;
-    grid-column: 2 / 3;
     padding: 0.8rem 4rem;
     color: white;
     width: 200px;
@@ -815,7 +814,21 @@ h4 {
     text-align: center;
     cursor: pointer;
 }
-
+.btn-login {
+    justify-self: end;
+    padding: 0.8rem 4rem;
+    color: white;
+    width: 200px;
+    white-space: nowrap;
+    font-size: 16px;
+    justify-self: start;
+    background-color: black;
+    outline: none;
+    font-family: aktiv-grotesk, sans-serif;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
 .wrapper-box-button1 {
     margin-top: 45px;
     grid-column: 2/3;
