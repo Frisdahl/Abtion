@@ -74,7 +74,12 @@ const UploadResume = () => {
                             </label>
                         </form>
                     </div>
-                    <input className="input-submit" type="submit"></input>
+                    <Link
+                        style={{ textDecoration: 'none' }}
+                        to="/statusApplication"
+                    >
+                        <input className="input-submit" type="submit"></input>
+                    </Link>
                 </div>
 
                 <div className="status-container">

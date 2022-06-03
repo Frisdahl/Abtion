@@ -24,11 +24,7 @@ function App() {
                     <Header />
                     <div className="content">
                         <Routes>
-                            <Route
-                                exact
-                                path="/content"
-                                element={<Content />}
-                            ></Route>
+                            <Route path="/" exact element={<Content />}></Route>
                             <Route path="/login" element={<Login />} />
                             <Route
                                 path="/createAccount"
