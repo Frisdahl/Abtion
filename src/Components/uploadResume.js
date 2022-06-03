@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const UploadResume = () => {
     return (
         <div className="apply-container">
@@ -78,8 +80,12 @@ const UploadResume = () => {
                 <div className="status-container">
                     <h4>Where is my application?</h4>
                     <p>Go check out your application below!</p>
-                    <button>Status on application</button>
-
+                    <Link
+                        style={{ textDecoration: 'none' }}
+                        to="/statusApplication"
+                    >
+                        <button>Status on application</button>
+                    </Link>
                     <div className="information">
                         <h5>Need additional information?</h5>
                         <p>

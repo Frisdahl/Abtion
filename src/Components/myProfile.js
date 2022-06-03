@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const MyProfile = () => {
     return (
         <div className="profile-input-container">
@@ -13,9 +15,10 @@ const MyProfile = () => {
             <br />
             <button className="btn-save">Save</button>
             <br />
-            <button className="btn-logout">Log out</button>
-            <br />
-
+            <Link style={{ textDecoration: 'none' }} to="/login">
+                <button className="btn-logout">Log out</button>
+                <br />
+            </Link>
             <span>Delete my account</span>
         </div>
     )

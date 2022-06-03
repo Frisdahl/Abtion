@@ -1,9 +1,17 @@
 import { Link } from 'react-router-dom'
+import arrow from '../assets/arrow.svg'
 
 export default function CreateAccount() {
     return (
         <div className="login-container">
-            <h1>Create account</h1>
+            <div className="heading">
+                <a href="https://abtion-website.webflow.io/karriere">
+                    <img src={arrow} alt="Big laptop svg" />
+                    <div>Tilbage til karriere</div>
+                </a>
+                <h3>Stillingsopslag</h3>
+                <h1>JavaScript Developer</h1>
+            </div>
 
             <div className="login">
                 <h3>Abtions jobportal</h3>

@@ -11,6 +11,7 @@ import Login from './Pages/login'
 import CreateAccount from './Pages/createAccount'
 import ForgotPassword from './Pages/forgotPassword'
 import AccountSettings from './Pages/accountSettings'
+import StatusApplication from './Pages/statusApplication'
 
 // router
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
@@ -23,7 +24,11 @@ function App() {
                     <Header />
                     <div className="content">
                         <Routes>
-                            <Route exact path="/"></Route>
+                            <Route
+                                exact
+                                path="/content"
+                                element={<Content />}
+                            ></Route>
                             <Route path="/login" element={<Login />} />
                             <Route
                                 path="/createAccount"
@@ -36,6 +41,10 @@ function App() {
                             <Route
                                 path="/accountSettings"
                                 element={<AccountSettings />}
+                            />
+                            <Route
+                                path="/statusApplication"
+                                element={<StatusApplication />}
                             />
                         </Routes>
                     </div>

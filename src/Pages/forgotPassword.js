@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
+import arrow from '../assets/arrow.svg'
 
 export default function ForgotPassword() {
     const [msgState, setMsgState] = useState(true)
@@ -12,7 +13,14 @@ export default function ForgotPassword() {
 
     return (
         <div className="login-container">
-            <h1>Forgot password</h1>
+            <div className="heading">
+                <a href="https://abtion-website.webflow.io/karriere">
+                    <img src={arrow} alt="Big laptop svg" />
+                    <div>Tilbage til karriere</div>
+                </a>
+                <h3>Stillingsopslag</h3>
+                <h1>Forgot password</h1>
+            </div>
 
             <div className="login">
                 <h3>Issues logging in?</h3>
