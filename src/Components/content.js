@@ -27,8 +27,12 @@ export default class PreviousNextMethods extends Component {
     }
 
     next() {
+        if (this.state.item >= 4) {
+            window.location.assign('/login')
+        } else {
+            this.slider.slickNext()
+        }
         this.setState({ item: this.state.item + 1 })
-        this.slider.slickNext()
     }
 
     previous() {
