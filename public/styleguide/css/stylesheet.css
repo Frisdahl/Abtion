@@ -743,16 +743,58 @@ h4 {
   grid-row: 1/2;
 }
 
-.previous {
-  padding: 0.8rem 4rem;
-  color: black;
-  width: 5rem;
-  margin: 0 auto;
-  background-color: #f5f5f5;
-  outline: none;
-  font-family: aktiv-grotesk, sans-serif;
-  border: none;
-  cursor: pointer;
+#loginform {
+  text-align: center;
+}
+
+.logininputs {
+    width: 500px;
+  }
+
+.logininputs label {
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    text-align: left;
+    margin-left: 90px;
+  }
+
+.logininputs input {
+    color: #fff;
+    width: 65%;
+    padding: 12px 20px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: #232323;
+    box-sizing: border-box;
+    border: 2px solid #7e7e7e;
+    border-radius: 4px;
+  }
+
+.logininputs input:focus {
+    border: 2px solid #7DF283;
+    outline: none;
+  }
+
+.loginbtn {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.loginwrapperbtn {
+  text-align: left;
+}
+
+.loginbtn {
+  display: inline-block;
+  background-color: #000;
+  border: 2px solid #000;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .wrapper-box-button1 {
