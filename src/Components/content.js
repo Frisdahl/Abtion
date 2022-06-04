@@ -27,11 +27,7 @@ export default class PreviousNextMethods extends Component {
     }
 
     next() {
-        if (this.state.item >= 4) {
-            window.location.assign('/login')
-        } else {
-            this.slider.slickNext()
-        }
+        this.slider.slickNext()
         this.setState({ item: this.state.item + 1 })
     }
 
@@ -421,16 +417,32 @@ export default class PreviousNextMethods extends Component {
                     >
                         Previous
                     </button>
-
-                    <button
-                        disabled={this.state.item >= 5}
-                        className={`next ${
-                            this.state.item >= 4 ? 'greenBtn' : ''
-                        }`}
-                        onClick={this.next}
-                    >
-                        {`${this.state.item >= 4 ? 'Apply' : 'Next'}`}
-                    </button>
+                    {this.state.item >= 4 ? (
+                        <Link
+                            style={{ textDecoration: 'none' }}
+                            to="/createAccount"
+                        >
+                            <button
+                                disabled={this.state.item >= 5}
+                                className={`next ${
+                                    this.state.item >= 4 ? 'greenBtn' : ''
+                                }`}
+                                onClick={this.next}
+                            >
+                                {`${this.state.item >= 4 ? 'Apply' : 'Next'}`}
+                            </button>
+                        </Link>
+                    ) : (
+                        <button
+                            disabled={this.state.item >= 5}
+                            className={`next ${
+                                this.state.item >= 4 ? 'greenBtn' : ''
+                            }`}
+                            onClick={this.next}
+                        >
+                            {`${this.state.item >= 4 ? 'Apply' : 'Next'}`}
+                        </button>
+                    )}
                 </div>
             </div>
         )
