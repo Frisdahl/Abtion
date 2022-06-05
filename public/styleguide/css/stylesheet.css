@@ -1892,6 +1892,25 @@ td img {
 /*LAYOUT - SLUT*/
 
 /*FORMULAR*/
+
+.input-container {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.input-login {
+    width: 100%;
+}
+
+.input-container p {
+    padding-top: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    align-self: flex-start;
+}
+
 /*FORMULAR - SLUT*/
 
 /*COLLAPSIBLE BOX - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible */

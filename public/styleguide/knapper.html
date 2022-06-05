@@ -32,35 +32,30 @@
             <button type="button" class="collapsible-button1">Open to see code</button>
             <div class="content-button1 invisible">
               <b>HTML:</b> <br>
-                &lt;div class="loginwrapperbtn"&gt; <br>
-                 &lt;a href="tableofcontents.html" type="button" class="loginbtn"&gt;
-                LOG IN
-                &lt;/a&gt; <br>
-                 &lt;/div&gt; <br>
+                &lt;button
+             
+                class="previous"&gt; <br>
+                 previous
+                &lt;/button&gt; <br>
+                
                 <br>
                 <b>CSS:</b> <br>
-                .loginwrapperbtn { <br>
-                  text-align: center; <br>
-                } <br>
-                <br>
-                .loginbtn { <br>
-                  display: inline-block; <br>
-                  background-color: #bb86fc; <br>
-                  border: 2px solid #bb86fc; <br>
-                  border-radius: 4px; <br>
+                .previous {<br>
+                  grid-column: 1 / 2;<br>
+               
+                  padding: 0.8rem 4rem; <br>
                   color: black; <br>
-                  padding: 15px 32px; <br>
-                  margin-top: 80px; <br>
-                  text-decoration: none; <br>
-                  font-size: 18px; <br>
-                  font-weight: 600; <br>
+                  width: 200px; <br>
+                  white-space: nowrap; <br>
+                  justify-self: end; <br>
+                  background-color: #f5f5f5; <br>
+                  outline: none; <br>
+                  font-family: aktiv-grotesk, sans-serif; <br>
+                  border: none; <br>
+                  cursor: pointer; <br>
+                  font-size: 16px; <br>
                 } <br>
-                <br>
-                .login__btn:hover { <br>
-                  background-color: #2f2f2f; <br>
-                  color: #e3e3e3; <br>
-                } <br>
-                <br>
+               
             </div>
             </div>
 
@@ -106,34 +101,29 @@
             <button type="button" class="collapsible-button2">Open to see code</button>
             <div class="content-button2 invisible">
               <b>HTML:</b> <br>
-              &lt;div class="loginwrapperbtn"&gt; <br>
-              &lt;a&gt; href="index.html" type="button" class="loginbtn"&gt; BACK &lt;/a&gt; <br>
-            &lt;/div&gt; <br>
-                <br>
-                <br>
-                <b>CSS:</b> <br>
-                .loginwrapperbtn { <br>
-                  text-align: center; <br>
-                } <br>
-                <br>
-                .loginbtn { <br>
-                  display: inline-block; <br>
-                  background-color: #bb86fc; <br>
-                  border: 2px solid #bb86fc; <br>
-                  border-radius: 4px; <br>
-                  color: black; <br>
-                  padding: 15px 32px; <br>
-                  margin-top: 80px; <br>
-                  text-decoration: none; <br>
-                  font-size: 18px; <br>
-                  font-weight: 600; <br>
-                } <br>
-                <br>
-                .login__btn:hover { <br>
-                  background-color: #2f2f2f; <br>
-                  color: #e3e3e3; <br>
-                } <br>
-                <br>
+              &lt;button
+             
+              class="next"&gt; <br>
+               next
+              &lt;/button&gt; <br>
+              
+              <br>
+              <b>CSS:</b> <br>
+              .previous {<br>
+                grid-column: 1 / 2;<br>
+             
+                padding: 0.8rem 4rem; <br>
+                color: white; <br>
+                width: 200px; <br>
+                white-space: nowrap; <br>
+                justify-self: end; <br>
+                background-color: black; <br>
+                outline: none; <br>
+                font-family: aktiv-grotesk, sans-serif; <br>
+                border: none; <br>
+                cursor: pointer; <br>
+                font-size: 16px; <br>
+              } <br>
             </div>
             </div>
 
@@ -154,330 +144,28 @@
           <button type="button" class="collapsible-button3">Open to see code</button>
           <div class="content-button3 invisible">
             <b>HTML:</b> <br>
-            &lt;div id="mySidenav" class="sidenav"&gt; <br>
-            &lt;a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-              &gt;&times;&lt;/a&gt; <br>
-  
-            &lt;a href="tableofcontents.html"&gt; <br>
-              &lt;img
-                src="images/white-quadsat.svg"
-                class="whitelogo2"
-                alt="Sidemenu dots"
-                loading="lazy"
-                decoding="async"
-            /&gt;&lt;/a&gt; <br>
-            &lt;hr class="purpleLineSide" /&gt; <br>
-            &lt;h5&gt;TABLE OF CONTENTS&lt;/h5&gt; <br>
-            &lt;div class="sideMenuMargin"&gt;<br>
-              &lt;div id="list6" class="dropdown-check-list" tabindex="100"&gt;
-                &lt;span class="anchor"&gt; &lt;h5&gt;&lt;b&gt;01&lt;/b&gt; &lt;span&gt; Missions&lt;/span&gt;&lt;/h5&gt;&lt;/span
-                &gt; <br> 
-                &lt;ul class="items"&gt; <br>
-                  &lt;li&gt; <br>
-                    &lt;img
-                      src="images/icons/dropdownicon.svg"
-                      alt="Sidemenu dots"
-                      loading="lazy"
-                      decoding="async"
-                      class="sideDropDots"
-                    /&gt;<br>
-                  &lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href="missions.html"&gt;Newly created mission&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href="missions.html"&gt;Caution&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href="missions.html"&gt;Equipment&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href="missions.html"&gt;Operator&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href="missions.html"&gt; Flexibility and range&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;/ul&gt; <br>
-              &lt;/div&gt; <br>
-              &lt;div id="list7" class="dropdown-check-list" tabindex="100"&gt; <br>
-                &lt;span class="anchor"
-                  &gt;&lt;h5&gt;&lt;b&gt;02&lt;/b&gt; &lt;span&gt;Gathering data&lt;/span&gt;&lt;/h5&gt;&lt;/span
-                &gt; <br>
-        
-                &lt;ul class="items"&gt; <br>
-                  &lt;li&gt; <br>
-                    &lt;img
-                      src="images/icons/dropdownicon.svg"
-                      alt="Sidemenu dots"
-                      loading="lazy"
-                      decoding="async"
-                      class="sideDropDots"
-                    /&gt; <br>
-                  &lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href="caution.html"&gt;Newly created mission&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href="caution.html"&gt;Caution&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href="caution.html"&gt;Equipment&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href="caution.html"&gt;Operator&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href="caution.html"&gt; Flexibility and range&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;/ul&gt; <br>
-              &lt;/div&gt;<br>
-              &lt;div id="list8" class="dropdown-check-list" tabindex="100"&gt; <br>
-                &lt;span class="anchor"
-                  &gt;&lt;h5&gt;&lt;b&gt;03&lt;/b&gt; &lt;span&gt;Software basics&lt;/span&gt;&lt;/h5&gt;&lt;/span
-                &gt; <br>
-        
-                &lt;ul class="items"&gt; <br>
-                  &lt;li&gt; <br>
-                    &lt;img
-                      src="images/icons/dropdownicon.svg"
-                      alt="Dropdown dots"
-                      loading="lazy"
-                      decoding="async"
-                      class="sideDropDots"
-                    /&gt; <br>
-                  &lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href=""&gt;Newly created mission&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href=""&gt;Caution&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href=""&gt;Equipment&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href=""&gt;Operator&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href=""&gt; Flexibility and range&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;/ul&gt; <br>
-              &lt;/div&gt;<br>
-        
-              &lt;div id="list9" class="dropdown-check-list" tabindex="100"&gt;
-                &lt;span class="anchor"
-                  &gt;&lt;h5&gt;&lt;b&gt;04&lt;/b&gt; &lt;span&gt;Connecting to drone&lt;/span&gt;&lt;/h5&gt;&lt;/span
-                &gt; <br>
-        
-                &lt;ul class="items"&gt; <br>
-                  &lt;li&gt; <br>
-                    &lt;img
-                      src="images/icons/dropdownicon.svg"
-                      alt="Sidemenu dots"
-                      loading="lazy"
-                      decoding="async"
-                      class="sideDropDots"
-                    /&gt; <br>
-                  &lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href=""&gt;Newly created mission&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href=""&gt;Caution&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href=""&gt;Equipment&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href=""&gt;Operator&lt;/a&gt;&lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href=""&gt; Flexibility and range&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;/ul&gt; <br>
-              &lt;/div&gt; <br>
-        
-              &lt;div id="list10" class="dropdown-check-list" tabindex="100"&gt;
-                &lt;span class="anchor"
-                  &gt;&lt;h5&gt;&lt;b&gt;05&lt;/b&gt; &lt;span&gt;Antenna measurements&lt;/span&gt;&lt;/h5&gt;&lt;/span
-                &gt; <br>
-        
-                &lt;ul class="items"&gt; <br>
-                  &lt;li&gt; <br>
-                    &lt;img
-                      src="images/icons/dropdownicon.svg"
-                      alt="Dropdown dots"
-                      loading="lazy"
-                      decoding="async"
-                      class="sideDropDots"
-                    /&gt; <br>
-                  &lt;/li&gt; <br>
-                  &lt;li class="listItemsSide"&gt;&lt;a href=""&gt;Newly created mission&lt;/a&gt;&lt;/li&gt; <br>
-              &lt;li class="listItemsSide"&gt;&lt;a href=""&gt;Caution&lt;/a&gt;&lt;/li&gt; <br>
-              &lt;li class="listItemsSide"&gt;&lt;a href=""&gt;Equipment&lt;/a&gt;&lt;/li&gt;<br>
-              &lt;li class="listItemsSide"&gt;&lt;a href=""&gt;Operator&lt;/a&gt;&lt;/li&gt;<br>
-              &lt;li class="listItemsSide"&gt;&lt;a href=""&gt;Flexibility and range&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;/ul&gt; <br>
-              &lt;/div&gt; <br>
-            &lt;/div&gt; <br>
-            &lt;div class="sideIcons"&gt;&lt;a href="tableofcontents.html"
-            &gt;<br>
-            &lt;img
-              src="images/icons/home.svg"
-        
-              alt="Home icon"
-              loading="lazy"
-              decoding="async"
-          /&gt; Home&lt;/a&gt;&lt;a href="index.html"
-          &gt; <br>
-          &lt;img
-            src="images/icons/logout.svg"
-        
-            alt="Logout icon"
-            loading="lazy"
-            decoding="async"
-        /&gt; Log out&lt;/a&gt;&lt;/div&gt; <br>
-          &lt;/div&gt;<br>
-              <br>
-              <br>
-              <b>CSS:</b> <br>
-              .dropdownGrid { <br>
-                display: grid;<br>
-                grid-row-gap: 25px;<br>
-                grid-template-columns: 45% 55%; <br>
-                grid-template-rows: auto; <br>
-                padding: 4% 4% 4% 6%; <br>
-                <br>
-                &__frontIllu { <br>
-                  grid-row: 1/6;<br>
-                  grid-column: 2/3; <br>
-                  width: 70%; <br>
-                  height: auto; <br>
-                  justify-self: center; <br>
-                  align-items: center; <br>
-                } <br>
-              }<br>
-              <br>
-              #list1 { <br>
-                grid-row: 1/2;<br>
-                grid-column: 1/2; <br>
-                text-align: left; <br>
-              }<br>
-              <br>
-              #list2 { <br>
-                grid-row: 2/3; <br>
-                grid-column: 1/2; <br>
-                text-align: left; <br>
-              } <br>
-              <br>
-              #list3 { <br>
-                grid-row: 3/4;<br>
-                grid-column: 1/2;<br>
-                text-align: left;<br>
-              }<br>
-              <br>
-              #list4 { <br>
-                grid-row: 4/5; <br>
-                grid-column: 1/2; <br>
-                text-align: left; <br>
-              } <br>
-              <br>
-              #list5 { <br>
-                grid-row: 5/6; <br>
-                grid-column: 1/2; <br>
-                text-align: left; <br>
-              } <br>
-              <br>
-              .dropdown-check-list { <br>
-                display: inline-block; <br>
-              } <br>
-              <br>
-              .anchor span { <br>
-                border-bottom: 4px solid $clr-text; <br>
-              } <br>
-              <br>
-              .anchor span:hover { <br>
-                color: $clr-light-purple; <br>
-                border-bottom: 4px solid $clr-light-purple; <br>
-                transition: 0.2s; <br>
-              } <br>
-              <br>
-              .dropdown-check-list .anchor { <br>
-                position: relative;<br>
-                cursor: pointer;<br>
-                display: inline-block;<br>
-                padding: 5px 50px 5px 10px;<br>
-                transition: 0.5s;<br>
-              } <br>
-              <br>
-              .dropdown-check-list ul.items { <br>
-                padding: 2px;<br>
-                display: none; <br>
-                margin: 3% 0 0 0; <br>
-                border-top: none; <br>
-              } <br>
-              <br>
-              .dropdown-check-list ul.items li { <br>
-                list-style: none;<br>
-                text-align: left; <br>
-                transition: 0.2s;<br>
-                font-size: $font-med; <br>
-              }<br>
-              <br>
-              .dropdown-check-list.visible .items { <br>
-                display: block; <br>
-              } <br>
-              <br>
-              .listItems {<br>
-                padding-bottom: 35px; <br>
-              }<br>
-              <br>
-              .listItems a:hover { <br>
-                color: $clr-light-purple; <br>
-                transition: 0.2s; <br>
-              } <br>
-              <br>
-              li img { <br>
-                float: left; <br>
-                height: 250px; <br>
-                margin: 1% 2% 0 10%; <br>
-              } <br>
-              <br>
-              .sideDropDots {<br>
-                float: left; <br>
-                height: 150px !important; <br>
-                margin: 1% 2% 0 15%;<br>
-              } <br>
-              <br>
-              .purpleLineSide {<br>
-                border: 3px solid $clr-light-purple; <br>
-                max-width: 65%; <br>
-                margin: 0 auto; <br>
-              } <br>
-              <br>
-              .listItemsSide {<br>
-                padding-bottom: 15px; <br>
-                font-size: $font-sm !important; <br>
-                margin-left: 50px; <br>
-              } <br>
-              <br>
-              .listItemsSide:hover {<br>
-                color: $clr-light-purple; <br>
-              } <br>
-              <br>
-              .sideMenuMargin { <br>
-                margin-left: 90px; <br>
-                margin-bottom: 100px;<br>
-              } <br>
-              <br>
-              .sidenav { <br>
-                height: 100%; /* 100% Full-height */ <br>
-                width: 0; /* 0 width - change this with JavaScript */ <br>
-                position: fixed; /* Stay in place */ <br>
-                z-index: 1; /* Stay on top */ <br>
-                top: 0; /* Stay at the top */ <br>
-                left: 0; <br>
-                background-color: rgba(0, 0, 0, 0.95); /* Black*/ <br>
-                overflow-x: hidden; /* Disable horizontal scroll */ <br>
-                padding-top: 60px; /* Place content 60px from the top */ <br>
-                transition: 0.4s; /* 0.5 second transition effect to slide in the sidenav */ <br>
-              } <br>
-              <br>
-              .sidenav h5 { <br>
-                text-align: center; <br>
-                margin: 20px 0; <br>
-              }  <br>
-           <br>
-              .whitelogo2 { <br>
-                display: block; <br>
-                margin: 5px auto 20px auto; <br>
-                text-align: center; <br>
-                cursor: pointer; <br>
-              } <br>
-              <br>
-              .sidenav a:hover { <br>
-                color: $clr-light-purple; <br>
-                transition: 0.2s; <br>
-              } <br>
-              <br>
-              .sidenav .closebtn { <br>
-                position: absolute; <br>
-                top: 0; <br>
-                right: 25px; <br>
-                font-size: 36px; <br>
-                margin-left: 50px; <br>
-              } <br>
-              <br>
-              <br>
-              <b>JS:</b> <br>
-              function openNav() { <br>
-                document.getElementById("mySidenav").style.width = "500px"; <br>
-              } <br>
+            &lt;button
+           
+            class="btn-login"&gt; <br>
+             Login
+            &lt;/button&gt; <br>
+            
             <br>
-              function closeNav() { <br>
-                document.getElementById("mySidenav").style.width = "0"; <br>
-              } <br>
-              <br>
+            <b>CSS:</b> <br>
+            .btn-login {<br>
+              grid-column: 1 / 2;<br>
+              padding: 0.8rem 4rem; <br>
+              color: white; <br>
+              width: 200px; <br>
+              white-space: nowrap; <br>
+              justify-self: end; <br>
+              background-color: black; <br>
+              outline: none; <br>
+              font-family: aktiv-grotesk, sans-serif; <br>
+              border: none; <br>
+              cursor: pointer; <br>
+              font-size: 16px; <br>
+            } <br>
           </div>
           </div>
 
@@ -505,15 +193,15 @@
           <button type="button" class="collapsible-button4">Open to see code</button>
           <div class="content-button4 invisible">
             <b>HTML:</b> <br>
-            &lt;div &gt; <br>
-            &lt;a&gt; class="breadNsearch__newM" href="tableofcontents.html"&gt;Table of contents /&lt;/a&gt; <br>
+            &lt;div class="my-account-link"&gt;<br>
+            &lt;p&gt;my account&lt;/p&gt;<br>
             &lt;/div&gt;
               <br>
               <br>
               <b>CSS:</b> <br>
-              breadNsearch__newM { <br>
-                display: block; <br>
-                margin-left: 12% !important; <br>
+              .my-account-link { <br>
+                display: flex; <br>
+                align-items: center; <br>
               } <br>
               <br>
           </div>
@@ -539,277 +227,28 @@
           <button type="button" class="collapsible-button5">Open to see code</button>
           <div class="content-button5 invisible">
             <b>HTML:</b> <br>
-            &lt;div class="dropdownGrid"&gt; <br>
-            &lt;div id="list1" class="dropdown-check-list" tabindex="100"&gt; <br>
-              &lt;span class="anchor"
-                &gt;&lt;h4&gt;&lt;b&gt;01&lt;/b&gt; &lt;span&gt; Missions&lt;/span&gt;&lt;/h4&gt;&lt;/span
-              &gt; <br>
-        
-              &lt;ul class="items"&gt; <br>
-                &lt;li&gt; <br>
-                  &lt;img
-                    src="images/icons/dropdownicon.svg"
-                    alt="Dropdown dots"
-                    loading="lazy"
-                    decoding="async"
-                  /&gt; <br>
-                &lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href="missions.html"&gt;Newly created mission&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href="missions.html"&gt;Caution&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href="missions.html"&gt;Equipment&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href="missions.html"&gt;Operator&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href="missions.html"&gt;Flexibility and range&lt;/a&gt;&lt;/li&gt; <br>
-              &lt;/ul&gt; <br>
-            &lt;/div&gt; <br>
-            &lt;div id="list2" class="dropdown-check-list" tabindex="100"&gt; <br>
-              &lt;span class="anchor"
-                &gt;&lt;h4&gt;&lt;b&gt;02&lt;/b&gt; &lt;span&gt;Gathering data&lt;/span&gt;&lt;/h4&gt;&lt;/span
-              &gt; <br>
-        
-              &lt;ul class="items"&gt; <br>
-                &lt;li&gt; <br>
-                  &lt;img
-                    src="images/icons/dropdownicon.svg"
-                    alt="Dropdown dots"
-                    loading="lazy"
-                    decoding="async"
-                  /&gt; <br>
-                &lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href="caution.html"&gt;Newly created mission&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href="caution.html"&gt;Caution&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href="caution.html"&gt;Equipment&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href="caution.html"&gt;Operator&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href="caution.html"&gt;Flexibility and range&lt;/a&gt;&lt;/li&gt; <br>
-              &lt;/ul&gt; <br>
-            &lt;/div&gt; <br>
-            &lt;img
-            src="images/antenne.svg"
-              class="dropdownGrid__frontIllu"
-              alt="Sidemenu dots"
-              loading="lazy"
-              decoding="async"
-            /&gt; <br>
-        
-            &lt;div id="list3" class="dropdown-check-list" tabindex="100"&gt;
-              &lt;span class="anchor"
-                &gt;&lt;h4&gt;&lt;b&gt;03&lt;/b&gt; &lt;span&gt;Software basics&lt;/span&gt;&lt;/h4&gt;&lt;/span
-              &gt; <br>
-        
-              &lt;ul class="items"&gt; <br>
-                &lt;li&gt; <br>
-                  &lt;img
-                    src="images/icons/dropdownicon.svg"
-                    alt="Dropdown dots"
-                    loading="lazy"
-                    decoding="async"
-                  /&gt; <br>
-                &lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href=""&gt;Newly created mission&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href=""&gt;Caution&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href=""&gt;Equipment&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href=""&gt;Operator&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href=""&gt;Flexibility and range&lt;/a&gt;&lt;/li&gt; <br>
-              &lt;/ul&gt; <br>
-            &lt;/div&gt; <br>
-        
-            &lt;div id="list4" class="dropdown-check-list" tabindex="100"&gt;
-              &lt;span class="anchor"
-                &gt;&lt;h4&gt;&lt;b&gt;04&lt;/b&gt; &lt;span&gt;Connecting to drone&lt;/span&gt;&lt;/h4&gt;&lt;/span
-              &gt; <br>
-        
-              &lt;ul class="items"&gt; <br>
-                &lt;li&gt; <br>
-                  &lt;img
-                    src="images/icons/dropdownicon.svg"
-                    alt="Dropdown dots"
-                    loading="lazy"
-                    decoding="async"
-                  /&gt; <br>
-                &lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href=""&gt;Newly created mission&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href=""&gt;Caution&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href=""&gt;Equipment&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href=""&gt;Operator&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href=""&gt;Flexibility and range&lt;/a&gt;&lt;/li&gt; <br>
-              &lt;/ul&gt; <br>
-            &lt;/div&gt; <br>
-        
-            &lt;div id="list5" class="dropdown-check-list" tabindex="100"&gt;
-              &lt;span class="anchor"
-                &gt;&lt;h4&gt;&lt;b&gt;05&lt;/b&gt; &lt;span&gt;Antenna measurements&lt;/span&gt;&lt;/h4&gt;&lt;/span
-              &gt; <br>
-        
-              &lt;ul class="items"&gt; <br>
-                &lt;li&gt; <br>
-                  &lt;img
-                    src="images/icons/dropdownicon.svg"
-                    alt="Dropdown dots"
-                    loading="lazy"
-                    decoding="async"
-                  /&gt; <br>
-                &lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href=""&gt;Newly created mission&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href=""&gt;Caution&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href=""&gt;Equipment&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href=""&gt;Operator&lt;/a&gt;&lt;/li&gt; <br>
-                &lt;li class="listItems"&gt;&lt;a href=""&gt;Flexibility and range&lt;/a&gt;&lt;/li&gt; <br>
-              &lt;/ul&gt; <br>
-            &lt;/div&gt; <br>
-          &lt;/div&gt; <br>
-              <br>
-              <br>
-              <b>CSS:</b> <br>
-              .dropdownGrid { <br>
-                display: grid; <br>
-                grid-row-gap: 25px;<br>
-                grid-template-columns: 45% 55%; <br>
-                grid-template-rows: auto; <br>
-                padding: 4% 4% 4% 6%; <br>
-                z-index: -1; <br>
-                <br>
-                <br>
-                &__frontIllu { <br>
-                  grid-row: 1/6; <br>
-                  grid-column: 2/3; <br>
-                  width: 70%; <br>
-                  height: auto; <br>
-                  justify-self: center; <br>
-                  align-items: center; <br>
-                } <br>
-              }<br>
-              <br>
-              #list1 {<br>
-                grid-row: 1/2;<br>
-                grid-column: 1/2; <br>
-                text-align: left;<br>
-              }<br>
-              <br>
-              #list2 {<br>
-                grid-row: 2/3;<br>
-                grid-column: 1/2;<br>
-                text-align: left;<br>
-              }<br>
-              <br>
-              #list3 {<br>
-                grid-row: 3/4;<br>
-                grid-column: 1/2;<br>
-                text-align: left;<br>
-              }<br>
-              <br>
-              #list4 {<br>
-                grid-row: 4/5;<br>
-                grid-column: 1/2;<br>
-                text-align: left;<br>
-              }<br>
-              <br>
-              #list5 {<br>
-                grid-row: 5/6;<br>
-                grid-column: 1/2;<br>
-                text-align: left;<br>
-              }<br>
-              <br>
-              .dropdown-check-list {<br>
-                display: inline-block;<br>
-              }<br>
-              <br>
-              .anchor span {<br>
-                border-bottom: 4px solid $clr-text;<br>
-              }<br>
-              <br>
-              .anchor span:hover {<br>
-                color: $clr-light-purple;<br>
-                border-bottom: 4px solid $clr-light-purple;<br>
-                transition: 0.2s;<br>
-              }<br>
-              <br>
-              .dropdown-check-list .anchor {<br>
-                position: relative;<br>
-                cursor: pointer;<br>
-                display: inline-block;<br>
-                padding: 5px 50px 5px 10px;<br>
-                transition: 0.5s;<br>
-              }<br>
-              <br>
-              .dropdown-check-list ul.items {<br>
-                padding: 2px;<br>
-                display: none;<br>
-                margin: 3% 0 0 0;<br>
-                border-top: none;<br>
-              }<br>
-              <br>
-              .dropdown-check-list ul.items li {<br>
-                list-style: none;<br>
-                text-align: left;<br>
-                transition: 0.2s;<br>
-                font-size: $font-med;<br>
-              }<br>
-              <br>
-              .dropdown-check-list.visible .items {<br>
-                display: block;<br>
-              }<br>
-              <br>
-              .listItems {<br>
-                padding-bottom: 35px;<br>
-              }<br>
-              <br>
-              .listItems a:hover {<br>
-                color: $clr-light-purple;<br>
-                transition: 0.2s;<br>
-              }<br>
-              <br>
-              li img {<br>
-                float: left;<br>
-                height: 250px;<br>
-                margin: 1% 2% 0 10%;<br>
-              }<br>
-              <br>
-              .sideDropDots {<br>
-                float: left;<br>
-                height: 150px !important;<br>
-                margin: 1% 2% 0 15%;<br>
-              }<br>
-              <br>
-              <b>JS:</b> <br>
-              var checkList = document.getElementById('list1'); <br>
-  checkList.getElementsByClassName('anchor')[0].onclick = function(evt) { <br>
-    if (checkList.classList.contains('visible')) <br>
-      checkList.classList.remove('visible'); <br>
-    else <br>
-      checkList.classList.add('visible'); <br>
-  }<br>
-  <br>
-  var checkList2 = document.getElementById('list2');<br>
-  checkList2.getElementsByClassName('anchor')[0].onclick = function(evt) { <br>
-    if (checkList2.classList.contains('visible')) <br>
-      checkList2.classList.remove('visible'); <br>
-    else <br>
-      checkList2.classList.add('visible'); <br>
-  }<br>
-  <br>
-  var checkList3 = document.getElementById('list3'); <br>
-  checkList3.getElementsByClassName('anchor')[0].onclick = function(evt) { <br>
-    if (checkList3.classList.contains('visible')) <br>
-      checkList3.classList.remove('visible'); <br>
-    else <br>
-      checkList3.classList.add('visible'); <br>
-  } <br>
-  <br>
-  var checkList4 = document.getElementById('list4'); <br>
-  checkList4.getElementsByClassName('anchor')[0].onclick = function(evt) { <br>
-    if (checkList4.classList.contains('visible')) <br>
-      checkList4.classList.remove('visible'); <br>
-    else <br>
-      checkList4.classList.add('visible'); <br>
-  } <br>
-  <br>
-  var checkList5 = document.getElementById('list5'); <br>
-  checkList5.getElementsByClassName('anchor')[0].onclick = function(evt) { <br>
-    if (checkList5.classList.contains('visible')) <br>
-      checkList5.classList.remove('visible'); <br>
-    else <br>
-      checkList5.classList.add('visible'); <br>
-  } <br>
-  <br>
+            &lt;button
+         
+            class="btn-logout"&gt; <br>
+             previous
+            &lt;/button&gt; <br>
+            
+            <br>
+            <b>CSS:</b> <br>
+            .btn-logout {<br>
+              grid-column: 1 / 2;<br>
+              padding: 0.8rem 4rem; <br>
+              color: black; <br>
+              width: 200px; <br>
+              white-space: nowrap; <br>
+              justify-self: end; <br>
+              background-color: white; <br>
+              outline: none; <br>
+              font-family: aktiv-grotesk, sans-serif; <br>
+              border: none; <br>
+              cursor: pointer; <br>
+              font-size: 16px; <br>
+            } <br>
           </div>
           </div>
             
@@ -833,29 +272,27 @@
           <button type="button" class="collapsible-button6">Open to see code</button>
           <div class="content-button6 invisible">
             <b>HTML:</b> <br>
-           &lt;img
-            src="images/icons/home.svg"
-
-            alt="Home icon"
-            loading="lazy"
-            decoding="async"
-        /&gt; Home&lt;/a&gt;&lt;a href="index.html"&gt; 
-              <br>
+              &lt;button
+             
+              class="btn-save"&gt; <br>
+               Save
+              &lt;/button&gt; <br>
+              
               <br>
               <b>CSS:</b> <br>
-              .sideIcons { <br>
-                display: flex; <br>
-                justify-content: space-evenly; <br>
-                margin-bottom: 100px; <br>
-                a { <br>
-                  display: flex; <br>
-                  align-items: center; <br>
-                  img { <br>
-                    margin-right: 10px; <br>
-                  } <br>
-                } <br>
+              .btn-save {<br>
+                            padding: 0.8rem 4rem; <br>
+                color: white; <br>
+                width: 200px; <br>
+                white-space: nowrap; <br>
+                justify-self: end; <br>
+                background-color: black; <br>
+                outline: none; <br>
+                font-family: aktiv-grotesk, sans-serif; <br>
+                border: none; <br>
+                cursor: pointer; <br>
+                font-size: 16px; <br>
               } <br>
-              <br>
           </div>
           </div>
 
@@ -877,32 +314,19 @@
             <button type="button" class="collapsible-button7">Open to see code</button>
             <div class="content-button7 invisible">
               <b>HTML:</b> <br>
-                &lt;img
-              src="images/icons/logout.svg"
-    
-              alt="Logout icon"
-              loading="lazy"
-              decoding="async"
-          /&gt; Log out&lt;/a&gt; 
+                &lt;span&gt; Delete my account&lt;/span&gt;
                 <br>
                 <br>
                 <b>CSS:</b> <br>
-                .sideIcons { <br>
-                  display: flex; <br>
-                  justify-content: space-evenly; <br>
-                  margin-bottom: 100px; <br>
-                  a { <br>
-                    display: flex; <br>
-                    align-items: center; <br>
-                    img { <br>
-                      margin-right: 10px; <br>
-                    } <br>
-                  } <br>
+                .btnsGridItem7 span {<br>
+                  color: red; <br>
+                  font-size: 1rem; <br>
+                  font-weight: 500;<br>
                 } <br>
             </div>
             </div>
 
-            <!--Guide knapper (step 1)-->
+            <!--Choose-->
           <div class="btnsGridItem8">
             <br>
             <h4>Choose Position</h4>
@@ -913,7 +337,7 @@
                   <option value="option 1">
                       Wordpress developer
                   </option>
-                   {' '}
+
                   <option value="option 2">
                       Javascript developer
                   </option>
@@ -931,22 +355,29 @@
             <button type="button" class="collapsible-button8">Open to see code</button>
             <div class="content-button8 invisible">
               <b>HTML:</b> <br>
-              &lt;button class="click" onclick="setPrc('25'), changeImage();"&gt;
-              STEP 1
-            &lt;/button&gt; <br>
+              &lt;div className="dropdown-container"&gt;<br>
+              &lt;select name="selectList" id="selectList"&gt;<br>
+              &lt;option value="option 1"&gt;<br>
+              Wordpress developer
+              &lt;/option&gt;<br>
+              &lt;option value="option 2"&gt;<br>
+              Javascript developer<br>
+              &lt;/option&gt;<br> &lt;/select&gt;
                 <br>
                 <br>
+               
                 <b>CSS:</b> <br>
-                .progressBtnreset { <br>
-                  display: inline-block; <br>
-                  background-color: $clr-sheet-black !important; <br>
-                  border: none !important; <br>
-                  color: $clr-text !important; <br>
-                  padding: 10px 28px; <br>
-                  text-decoration: none; <br>
-                  font-size: 18px; <br>
-                  font-weight: 600; <br>
-                  cursor: pointer; <br>
+                select {<br>
+                  width: 50%;<br>
+                  height: 50px;<br>
+                  text-align: center;<br>
+                  border: 1px solid #707070;<br>
+                  background-color: #eaeaea;<br>
+                  -webkit-appearance: none;<br>
+                  -moz-appearance: none;<br>
+                  background-repeat: no-repeat;<br>
+                  appearance: none;<br>
+                  word-wrap: normal;<br>
                 } <br>
                 <br>
             </div>
@@ -993,13 +424,25 @@
               <button type="button" class="collapsible-button9">Open to see code</button>
               <div class="content-button9 invisible">
                 <b>HTML:</b> <br>
-                &lt;button&gt;
-                id="click"
-                onclick="setPrc(), resetImage();"
-                class="progressBtnreset"
-              &gt;
-                RESET
-              &lt;/button&gt; <br>
+                &lt;form action="/action_page.php"&gt; <br>
+                &lt;label htmlFor="inputTag"&gt; <br>
+                &lt;svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="50"
+                      height="76.462"
+                      viewBox="0 0 50 76.462"
+                      id="icon-file"&gt; <br>
+                      &lt; path
+                      id="Icon_awesome-file-alt"
+                      data-name="Icon awesome-file-alt"
+                      d="M29.167,20.31V0H3.125A3.37,3.37,0,0,0,0,3.584V72.878a3.37,3.37,0,0,0,3.125,3.584h43.75A3.37,3.37,0,0,0,50,72.878V23.894H32.292A3.388,3.388,0,0,1,29.167,20.31ZM37.5,55.554a1.694,1.694,0,0,1-1.562,1.792H14.063A1.694,1.694,0,0,1,12.5,55.554V54.36a1.694,1.694,0,0,1,1.563-1.792H35.937A1.694,1.694,0,0,1,37.5,54.36ZM37.5,46a1.694,1.694,0,0,1-1.562,1.792H14.063A1.694,1.694,0,0,1,12.5,46V44.8a1.694,1.694,0,0,1,1.563-1.792H35.937A1.694,1.694,0,0,1,37.5,44.8Zm0-10.752v1.195a1.694,1.694,0,0,1-1.562,1.792H14.063A1.694,1.694,0,0,1,12.5,36.439V35.244a1.694,1.694,0,0,1,1.563-1.792H35.937A1.694,1.694,0,0,1,37.5,35.244ZM50,18.2v.911H33.333V0h.794a2.933,2.933,0,0,1,2.214,1.045L49.089,15.681A3.856,3.856,0,0,1,50,18.2Z"
+                  /&gt;<br>&lt;/svg&gt; <br> Choose and upload  <br> &lt; input
+                  type="file"
+                  id="inputTag"
+                  name="filename"
+                  placeholder="choose file"
+              /&gt;<br>
+              &lt;/label&gt;
                   <br>
                   <br>
                   <b>CSS:</b> <br>
@@ -1036,33 +479,19 @@
               <button type="button" class="collapsible-button10">Open to see code</button>
               <div class="content-button10 invisible">
                 <b>HTML:</b> <br>
-                &lt;a href="tableofcontents.html"
-                &gt; <br>
-                &lt;img
-                  src="images/icons/leftArrow.svg"
-                  alt="Left Arrow"
-                  loading="lazy"
-                  decoding="async"
-                /&gt; <br>
-                &lt;h4&gt;PREVIOUS PAGE&lt;/h4&gt;&lt;/a
-              &gt;
+                &lt;input class="input-submit" type="submit" /
+                &gt; 
                   <br>
                   <br>
                   <b>CSS:</b> <br>
-                  .footerBtns { <br>
-                    display: flex; <br>
-                    justify-content: space-around; <br>
-                  <br>
-                    a { <br>
-                      display: flex; <br>
-                      padding: 2% 0 5% 0; <br>
-                    } <br>
-                    <br>
-                    a:hover { <br>
-                      color: $clr-light-purple; <br>
-                      transition: 0.2s; <br>
-                    } <br>
-                  } <br>
+                  .input-submit {<br>
+                    width: 35%;<br>
+                    background-color: #7df283;<br>
+                    color: black;<br>
+                    font-weight: 700;<br>
+                    height: 50px;<br>
+                    border: none;<br>
+                }
                   <br>
                   <br>
               </div>
@@ -1087,32 +516,27 @@
             <button type="button" class="collapsible-button11">Open to see code</button>
             <div class="content-button11 invisible">
               <b>HTML:</b> <br>
-              &lt;a href="caution.html"
-              &gt; 
-              &lt;h4&gt;NEXT PAGE&lt;/h4&gt;
-              &lt;img
-                src="images/icons/rightArrow.svg"
-                alt="Right Arrow"
-                loading="lazy"
-                decoding="async"
-            /&gt; &lt;/a&gt;
-                <br>
-                <br>
-                <b>CSS:</b> <br>
-                  .footerBtns { <br>
-                    display: flex; <br>
-                    justify-content: space-around; <br>
-                  <br>
-                    a { <br>
-                      display: flex; <br>
-                      padding: 2% 0 5% 0; <br>
-                    } <br>
-                    <br>
-                    a:hover { <br>
-                      color: $clr-light-purple; <br>
-                      transition: 0.2s; <br>
-                    } <br>
-                  } <br>
+              &lt;button
+             
+              class="btn-save"&gt; <br>
+               Status on application
+              &lt;/button&gt; <br>
+              
+              <br>
+              <b>CSS:</b> <br>
+              .btn-save {<br>
+              padding: 0.8rem 4rem; <br>
+                color: white; <br>
+                width: 200px; <br>
+                white-space: nowrap; <br>
+                justify-self: end; <br>
+                background-color: black; <br>
+                outline: none; <br>
+                font-family: aktiv-grotesk, sans-serif; <br>
+                border: none; <br>
+                cursor: pointer; <br>
+                font-size: 16px; <br>
+              } <br>
                   <br>
                   <br>
             </div>
@@ -1139,33 +563,12 @@ This button will be applied on the site with search results, so the user can vis
             <button type="button" class="collapsible-button12">Open to see code</button>
             <div class="content-button12 invisible">
               <b>HTML:</b> <br>
-              &lt;a class="searchGrid__pageBtn" href="missions.html" type="button"&gt;
-              PAGE 1
-              &lt;img
-                src="images/icons/rightArrow.svg"
-                alt="Right Arrow"
-                loading="lazy"
-                decoding="async"
-              /&gt;
-                <br>
-                <br>
-                <b>CSS:</b> <br>
-                searchGrid__pageBtn { <br>
-                  display: inline-block; <br>
-                  background-color: $clr-sheet-black; <br>
-                  border: 2px solid $clr-turqouis-blue; <br>
-                  border-radius: 4px; <br>
-                  color: $clr-text; <br>
-                  padding: 15px 32px; <br>
-                  text-decoration: none; <br>
-                  font-size: 18px; <br>
-                  font-weight: 600; <br>
-                  <br>
-                  img { <br>
-                    height: 12px; <br>
-                  } <br>
-                } <br>
-                <br>
+              &lt;div class="my-account-link"&gt;<br>
+              &lt;p&gt;<br>
+              Create Account
+              &lt;/p&gt;<br>
+                             <br>
+                
             </div>
             </div>
 

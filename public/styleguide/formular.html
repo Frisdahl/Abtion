@@ -34,148 +34,58 @@
           </button>
           <div class="content-button1 invisible">
             <b>HTML:</b> <br />
-            &lt;div id="loginform"&gt;  <br />
-            &lt;div class="logininputs"&gt; <br />
-            &lt;label&gt; for="operator"&gt;Operator&lt;/label&gt; <br />
-        &lt;input
-          type="text"
-          id="opname"
-          name="opname"
-          placeholder="E.g QuadSAT"
-        /&gt;&lt;br /&gt;&lt;br /&gt; <br />
-      &lt;/div&gt; <br />
-      &lt;div class="logininputs"&gt; <br />
-        &lt;label&gt; for="password"&gt;Password&lt;/label&gt; <br />
-        &lt;input
-          type="text"
-          id="password"
-          name="password"
-          placeholder="Password"
-        /&gt; <br />
+            &lt;div class="login-container"&gt;  <br />
+            &lt;div class="login"&gt; <br />
+            &lt;div class="input-container"&gt;<br />
+        &lt;p class="email"&gt; Email &lt;/p&gt; <br />
+       
+      &lt;input class="input-login" type="text" /&gt; <br />
+
+      &lt;p class="password"&gt; Passwword &lt;/p&gt; <br />
+      &lt;input class="input-login" type="password" /&gt; <br />
+
+   
       &lt;/div&gt; <br />
     &lt;/div&gt; <br />
             <br />
             <br />
             <b>CSS:</b> <br />
-            .login {  <br />
-              &container {  <br />
-                background-color: $clr-sheet-black;  <br />
-                width: 500px;  <br />
-                height: 550px;  <br />
-                position: absolute;  <br />
-                top: 0;  <br />
-                bottom: 0;  <br />
-                left: 0;  <br />
-                right: 0;  <br />
-                margin: auto;  <br />
-                padding: auto;  <br />
-                box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);  <br />
-              } <br /> 
-              <br />
-              h4 {  <br />
-                text-align: center;  <br />
-                padding: 4rem;  <br />
-                color: $clr-text;  <br />
-              }  <br />
-              <br />
-              &inputs {  <br />
-                width: 500px;  <br />
-              }  <br />
-              <br />
-              &inputs label {  <br />
-                color: $clr-text;  <br />
-                font-size: $font-sm; <br /> 
-                font-size: $font-sm-fallback;  <br />
-                display: block;  <br />
-                text-align: left;  <br />
-                margin-left: 90px;  <br />
-              }  <br />
-              <br />
-              &inputs input {  <br />
-                color: $clr-text;  <br />
-                width: 65%;  <br />
-                padding: 12px 20px;  <br />
-                margin-top: 1rem; <br />
-                margin-bottom: 2rem;  <br />
-                background-color: $clr-sheet-black; <br />
-                box-sizing: border-box;  <br />
-                border: 2px solid #7e7e7e; <br />
-                border-radius: 4px; <br />
-              } <br />
-              <br />
-              &inputs input:focus { <br />
-                border: 2px solid $clr-light-purple;  <br />
-                outline: none;  <br />
-              }  <br /> 
-              <br />
-              &fpass {  <br />
-                color: #afadad;  <br />
-                margin-left: 95px;  <br />
-              }  <br />
-              <br />
-              &fpass:hover {  <br />
-                color: white;  <br />
-                text-decoration: underline;  <br />
-              }  <br />
-              <br />
-              &wrapperbtn { <br />
-                text-align: center; <br />
-              }<br />
-              <br />
-              &btn { <br />
-                display: inline-block; <br />
-                background-color: $clr-light-purple; <br />
-                border: 2px solid $clr-light-purple; <br />
-                border-radius: 4px; <br />
-                color: black; <br />
-                padding: 15px 32px; <br />
-                margin-top: 80px;<br />
-                text-decoration: none; <br />
-                font-size: 18px; <br />
-                font-weight: 600; <br />
-              }<br />
-              <br /> 
-              &btn:hover { <br />
-                background-color: $clr-sheet-black; <br />
-                color: $clr-text; <br />
-              } <br />
-              <br />
-              &__container2 { <br />
-                padding: 0 60px 0 60px; <br />
-                color: $clr-text; <br />
-              } <br />
-            } <br />
+            .input-container {   <br />
+              width: 65%;   <br />
+              display: flex;   <br />
+              align-items: center;   <br />
+              flex-direction: column;   <br />
+              padding-bottom: 15px;   <br />
+            }   <br />
+            .input-login {   <br />
+              width: 100%;   <br />
+            }   <br />
             <br />
-            #loginform { <br />
-              text-align: center; <br />
-            } <br />
+            .input-container p {   <br />
+              padding-top: 20px;   <br />
+              font-size: 1rem;   <br />
+              font-weight: 400;   <br />
+              align-self: flex-start;   <br />
+            }   <br />
             <br />
           </div>
         </div>
 
         <div class="btnsGridItem1">
-          <h4>Login input</h4>
+          <h4>Login, create account og my profile input</h4>
           <br />
-          <div id="loginform">
-            <div class="logininputs">
-              <label for="operator">Operator</label>
-              <input
-                type="text"
-                id="opname"
-                name="opname"
-                placeholder="E.g QuadSAT"
-              /><br /><br />
+          <div class="login-container">
+             <div class="login">
+                  <div class="input-container">
+                    <p class="email">Email</p>
+                    <input class="input-login" type="text" />
+
+                    <p class="password">Password</p>
+                    <input class="input-login" type="password" />
+                </div>
+                
             </div>
-            <div class="logininputs">
-              <label for="password">Password</label>
-              <input
-                type="text"
-                id="password"
-                name="password"
-                placeholder="Password"
-              />
-            </div>
-          </div>
+        </div>
           <p class="paragrafbox1">
             <br />
             <b>Anvendelse:</b>
@@ -184,7 +94,7 @@
 
           </p>
         </div>
-
+<!--Create account knap
         <div class="btnsGridItem2">
           <br />
           <h4>Search function</h4>
@@ -366,7 +276,7 @@ function renderResults(results) {<br />
           </div>
         </div>
 
-       
+        -->
     </section>
     <script src="script/script1.js" defer></script>
   </body>

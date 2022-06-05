@@ -35,22 +35,24 @@
 
 
           <b>HTML:</b> <br>
-          &lt;a&gt; href=""&gt;
-    &lt;img
-      src="images/white-quadsat.svg"
-      class="whitelogo"
-      alt="QuadSATs logo"
-      loading="lazy"
-      decoding="async"
-  /&gt;&lt;/a&gt;
+          &lt;div className="logo-container"&gt;
+    &lt;img src={Logo} height={25} width={35} alt="" /
+  &gt;&lt;/div&gt;
             <br>
             <br>
             <b>CSS:</b> <br>
-            .whitelogo { <br>
-              height: 70px; <br>
-              cursor: pointer; <br>
+            header {  <br>
+              display: flex;  <br>
+              justify-content: space-between; <br>
+              width: 100vw; <br>
+              margin-top: 24px; <br>
+            } <br><br>
+            .logo-container {<br>
+              padding: 32px 24px;  <br>
+              margin-left: 200px;<br>
             } <br>
-          } <br>
+
+           <br>
           <br>
           <br>
         </div>

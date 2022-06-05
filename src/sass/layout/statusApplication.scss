@@ -1,0 +1,59 @@
+.status-header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+
+    .status {
+        display: flex;
+        .field-type {
+            display: flex;
+            align-items: center;
+            opacity: 50%;
+            padding-left: 10px;
+
+            img {
+                width: 0.7rem;
+                transform: rotate(180deg);
+                padding-top: 15px;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .my-account-link {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 0.7rem;
+            transform: rotate(180deg);
+            padding-top: 15px;
+            margin-left: 10px;
+        }
+    }
+}
+.my-account-link {
+    display: flex;
+    align-items: center;
+}
+
+.my-account-link img {
+    width: 0.7rem;
+    transform: rotate(180deg);
+
+    margin-left: 10px;
+}
+.information-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+    .where {
+        width: 30%;
+    }
+
+    .additional-information {
+        width: 30%;
+    }
+}

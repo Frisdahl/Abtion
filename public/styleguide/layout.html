@@ -25,7 +25,7 @@
     <h3 class="tekstillustrationtekst">Layout</h3>
         <div class="sektion6">
          <div class="gridlayout">
-         <img src="assets/images/gridsFlex.JPG" class="gridpic" alt="gridpic" /></div>
+         <img src="assets/images/grids.png" class="gridpic" alt="gridpic" /></div>
          <div class="kode-overskrift">
     <h3 class="title2">Code</h3> </div>
         <div class="wrapper-box-layout">
@@ -33,241 +33,96 @@
           <div class="content-layout">
 
             <b>HTML:</b> <br>
-            &lt;div class="topnavContainer"&gt; <br>
-    &lt;img
-      src="images/icons/sidemenu.svg"
-      class="sidemenu"
-      alt="Sidemenu dots"
-      loading="lazy"
-      decoding="async"
-      onclick="openNav()"
+            &lt;div className="position-grid"&gt; <br>
+    &lt;div className="text-position"
     /&gt; <br>
-    &lt;h3&gt;01 Missions&lt;/h3&gt; <br>
-    &lt;a href="tableofcontents.html"&gt; <br>
-      &lt;img
-        src="images/white-quadsat.svg"
-        class="whitelogo"
-        alt="QuadSATs logo"
-        loading="lazy"
-        decoding="async"
-    /&gt;&lt;/a&gt; <br>
+    &lt;h2&gt;The Position&lt;/h2&gt; <br>
+    &lt;p&gt; <br>
+    Hey! Yeah, we are happy that we caught
+    your attention. Welcome!
+    &lt;/p&gt; <br>
+    &lt;p&gt;
+    Abtion is a digital agency. We design
+    and build digital products for others.
+    We are 40 employees, of which roughly
+    80% of us are programmers. So, as a
+    developer, you will be surrounded by
+    like-minded and given a unique
+    opportunity to learn and grow.
+    &lt;/p&gt; <br>
+    &lt;p&gt; 
+    Hey! Yeah, we are happy that we caught
+    your attention. Welcome!
+    &lt;/p&gt; <br>
+    &lt;p&gt; 
+    At Abtion, we focus on delivering value
+    to our clients. Our way of working is
+    heavily inspired by eXtreme Programming.
+    By doing that, our developers get all
+    the necessary context to make the right
+    decisions. We talk daily with our
+    clients and debate solutions in teams.
+    &lt;/p&gt; <br>
   &lt;/div&gt; <br>
-  &lt;hr class="purpleLine" /&gt; <br>
-  &lt;div class="breadNsearch"&gt; <br>
-    &lt;div class="breadNsearch__crumbs"&gt; <br>
-      &lt;a class="breadNsearch__newM" href="tableofcontents.html"
-        &gt;Table of contents / &lt;/a
-      &gt;&lt;a href="missions.html"&gt; &lt;b&gt;Newly created mission /&lt;/b&gt;&lt;/a&gt;
-    &lt;/div&gt; <br>
-    &lt;div class="container"&gt; <br>
-      &lt;div class="wrapper"&gt; <br>
-        &lt;div&gt;&lt;input class="searcher" type="text" name="search" id="search" placeholder="Type to search" autocomplete="chrome-off"&gt; <br>
+  &lt;div className="svg-container"&gt; <br>
+     &lt;div class="breadNsearch__crumbs"&gt; <br>
+      &lt;img
+      src={bedroom}
+      className="bedroom-svg"
+      alt="bedroom illustration"
+        &gt; <br>
         &lt;img
-      src="images/icons/search.svg"
-
-      alt="Search Icon"
-      loading="lazy"
-      decoding="async" onclick="document.location='searchresults.html'"
-    /&gt;&lt;/div&gt; <br>
-        &lt;div class="results"&gt; <br>
-          &lt;ul&gt; <br>
-          &lt;/ul&gt;<br>
+        src={xp}
+        className="xp-svg"
+        alt="eXtreme Programming illustration"
+          &gt; 
         &lt;/div&gt;<br>
       &lt;/div&gt;<br>
-    &lt;/div&gt;<br>
-&lt;/nav&gt;<br>
-&lt;/header&gt;<br>
-&lt;main&gt;<br>
-&lt;div class="info-grid-container"&gt; <br>
-  &lt;div class="info-grid-container__griditem1"&gt; <br>
-    &lt;h4&gt;Newly created mission&lt;/h4&gt; <br>
-    &lt;br /&gt; <br>
-    &lt;div&gt; <br>
-      &lt;p&gt; <br>
-        By double clicking on the name of the newly created mission on the
-        bar on the left, you will be presented with the three views that
-        you will interact with in order to perform the test.
-      &lt;/p&gt; <br>
-      &lt;br /&gt; <br>
-      &lt;p&gt; <br>
-        The first view called the “calibration” allows you to change the
-        information regarding the referencing system (model, manufacturer,
-        configuration, frequency, position, orientation and radom).
-      &lt;/p&gt; <br>
-      &lt;br /&gt; <br>
-      &lt;p&gt; <br>
-        It also allows you to adjust the antennas position and
-        orientation. Lastly, you are able to adjust the payload settings,
-        if any are connected.
-      &lt;/p&gt; <br>
-      &lt;br /&gt; <br>
-      &lt;p&gt; <br>
-        The second view called the “scan” allows you to create the flights
-        of the drone that you will be using to test the antenna. Here, you
-        will also be doing the data gathering as well as the data
-        processing.
-      &lt;/p&gt; <br>
-      &lt;br /&gt; <br>
-      &lt;p&gt; <br>
-        In the third and last view, called the “plot”, is where you will
-        be viewing the created data sets.
-      &lt;/p&gt; <br>
-    &lt;/div&gt; <br>
-  &lt;/div&gt; <br>
-  &lt;div class="info-grid-container__griditem2"&gt; <br>
-    &lt;img
-      src="images/Satellit.png"
-      class="illus"
-      alt="Sidemenu dots"
-      loading="lazy"
-      decoding="async"
-    /&gt; <br>
-  &lt;/div&gt; <br>
-
-&lt;/div&gt; <br>
+    &lt;/div&gt;<br> &lt;/div&gt;<br>
 <br> 
 
 <b>CSS:</b> <br>
-.breadNsearch { <br>
-  display: -ms-grid; <br>
+.container1 {<br>
+  max-width: 1200px; <br>
+  width: 100vw;<br>
+  margin: 0 auto;<br>
+  padding: 2rem; <br>
+ 
+} <br>
+<br>
+.position-grid { <br>
   display: grid; <br>
-  margin-top: 10px; <br>
-  -ms-grid-columns: 50% 20% 30%; <br>
-  grid-template-columns: 50% 20% 30%; <br>
-  -ms-grid-rows: 100%; <br>
-  grid-template-rows: 100%; <br>
+  grid-template-columns: 1fr 1fr; <br>
+  grid-gap: 15%; <br>
 } <br>
 <br>
-.breadNsearch input { <br>
-  -ms-grid-column: 3; <br>
-  -ms-grid-column-span: 1; <br>
-  grid-column: 3/4; <br>
-  padding: 12px; <br>
-  -ms-grid-row: 1; <br>
-  -ms-grid-row-span: 1; <br>
-  grid-row: 1/2; <br>
-  color: #e3e3e3;<br>
-  outline: none; <br>
-  background-color: #2f2f2f; <br>
+.position-grid h2 { <br>
+  font-size: 40px;<br>
+  font-size: 2.5rem; <br>
+  margin-bottom: 1.5rem; <br>
 } <br>
 <br>
-.breadNsearch input:focus { <br>
-  -webkit-transition: 0.5; <br>
-  transition: 0.5; <br>
-} <br>
-<br>
-.breadNsearchsearchDivFlex { <br>
-  display: -webkit-box; <br>
-  display: -ms-flexbox; <br>
+.svg-container { <br>
   display: flex; <br>
-  -webkit-box-pack: stretch; <br>
-  -ms-flex-pack: stretch; <br>
-  justify-content: stretch; <br>
-  margin-top: 15px; <br>
+  flex-direction: column; <br>
+  align-content: center; <br>
+  justify-content: space-around; <br>
 } <br>
 <br>
-.breadNsearch a { <br>
-  margin-left: 1%; <br>
+.bedroom-svg { <br>
+  width: 100%; <br>
+  max-width: 65%; <br>
+  grid-column: 2 / 3;
+  margin: 0 auto;<br>
+  margin: 0 auto; <br>
 } <br>
 <br>
-.breadNsearchnewM {<br>
-  display: block; <br>
-  margin-left: 12% !important; <br>
+.xp-svg {<br>
+  width: 100%; <br>
+  max-width: 45%; <br>
+  grid-column: 2 / 3;
+  margin: 0 auto;<br>
 } <br>
-<br>
-.breadNsearch a:hover { <br>
-  color: #bb86fc;<br>
-  -webkit-transition: 0.2s; <br>
-  transition: 0.2s; <br>
-} <br>
-<br>
-.breadNsearch img { <br>
-  -ms-grid-column: 3; <br>
-  -ms-grid-column-span: 1; <br>
-  grid-column: 3/4; <br>
-  -ms-grid-row: 1; <br>
-  -ms-grid-row-span: 1; <br>
-  grid-row: 1/2; <br>
-  -ms-grid-column-align: end; <br>
-  justify-self: end; <br>
-  margin: 3% 18%;<br>
-  width: 20px; <br>
-  height: 20px; <br>
-}<br>
-<br>
-.breadNsearch__crumbs {<br>
-  display: -webkit-box; <br>
-  display: -ms-flexbox; <br>
-  display: flex; <br>
-  -webkit-box-pack: start; <br>
-  -ms-flex-pack: start; <br>
-  justify-content: flex-start; <br>
-} <br>
-<br>
-.info-grid-container { <br>
-  display: -ms-grid; <br>
-  display: grid; <br>
-  -ms-grid-columns: 50% 50%; <br>
-  grid-template-columns: 50% 50%; <br>
-  -ms-grid-rows: 1fr 1fr; <br>
-  grid-template-rows: 1fr 1fr; <br>
-  padding: 4% 4% 2% 6%; <br>
-  grid-gap: 20px; <br>
-} <br>
-<br>
-.info-grid-containergriditem1 { <br>
-  background-color: #2f2f2f; <br>
-  -o-object-fit: contain; <br>
-  object-fit: contain; <br>
-  height: auto; <br>
-  -ms-grid-column: 1; <br>
-  -ms-grid-column-span: 1; <br>
-  grid-column: 1/2; <br>
-  -ms-grid-row: 1; <br>
-  -ms-grid-row-span: 2; <br>
-  grid-row: 1/3; <br>
-  -webkit-box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8); <br>
-  box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8); <br>
-  text-align: left; <br>
-  padding: 7% 9%; <br>
-} <br>
-<br>
-.info-grid-containergriditem1 h4 { <br>
-  font-weight: 500; <br>
-} <br>
-<br>
-.info-grid-containergriditem1 div { <br>
-  margin-top: 1%; <br>
-} <br>
-<br>
-.info-grid-containergriditem1 p { <br>
-  margin-bottom: 4%; <br>
-} <br>
-<br>
-.info-grid-containergriditem2 { <br>
-  -ms-grid-row: 1; <br>
-  -ms-grid-row-span: 2; <br>
-  grid-row: 1/3; <br>
-  -webkit-box-align: center; <br>
-  -ms-flex-align: center; <br>
-  align-items: center; <br>
-  -webkit-box-pack: center; <br>
-  -ms-flex-pack: center; <br>
-  justify-content: center; <br>
-} <br>
-<br>
-.info-grid-containergriditem3 { <br>
-  -ms-grid-row: 1; <br>
-  -ms-grid-row-span: 2; <br>
-  grid-row: 1/3;<br>
-  -webkit-box-align: center; <br>
-  -ms-flex-align: center; <br>
-  align-items: center; <br>
-  -webkit-box-pack: center; <br>
-  -ms-flex-pack: center; <br>
-  justify-content: center; <br>
-}<br>
-<br>
           </div>
        </div>
         </div>
