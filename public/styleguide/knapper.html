@@ -481,12 +481,15 @@
           </div>
           </div>
 
-           <!--Breadcrumbs-->
+           <!--My Account-->
           <div class="btnsGridItem4">
             <br>
-            <h4>Breadcrumbs</h4>
+            <h4>My Account</h4>
             <br>
-            <div ><a class="breadNsearch__newM" href="tableofcontents.html">Table of contents /</a>
+            <div > <div class="my-account-link">
+              <p>my account</p>
+              <img src="assets/images/arrow.svg" alt="" />
+          </div>
             </div>
   
           <p class="paragrafbox4">
@@ -516,31 +519,13 @@
           </div>
           </div>
 
-           <!--Dropdown menu-->
+           <!--Log out-->
           <div class="btnsGridItem5">
             <br>
-            <h4>Dropdown menu button</h4>
+            <h4>Log out button</h4>
             <br>
-            <div id="list1" class="dropdown-check-list" tabindex="100">
-              <span class="anchor"
-                ><h4><b>01</b> <span> Missions</span></h4></span
-              >
-    
-              <ul class="items">
-                <li>
-                  <img
-                    src="images/icons/dropdownicon.svg"
-                    alt="Dropdown dots"
-                    loading="lazy"
-                    decoding="async"
-                  />
-                </li>
-                <li class="listItems"><a href="missions.html">Newly created mission</a></li>
-                <li class="listItems"><a href="">Caution</a></li>
-                <li class="listItems"><a href="">Equipment</a></li>
-                <li class="listItems"><a href="">Operator</a></li>
-                <li class="listItems"><a href="">Flexibility and range</a></li>
-              </ul>
+            <div>
+              <button class="btn-logout">Log out</button>
             </div>
           <p class="paragrafbox5">
             <br>
@@ -828,20 +813,13 @@
           </div>
           </div>
             
-      <!--Home knap-->
+      <!--Save knap-->
           <div class="btnsGridItem6">
             <br>
-            <h4>Home button</h4>
+            <h4>Save button</h4>
             <br>
 
-            <img
-            src="assets/images/home.svg"
-
-            alt="Home icon"
-            loading="lazy"
-            decoding="async"
-        /> Home</a><a href="index.html"
-        ></a>
+            <button class="btn-save">Save</button>
 
         
           <p class="paragrafbox6">
@@ -881,18 +859,12 @@
           </div>
           </div>
 
-          <!--Logout knap-->
+          <!--Delete account knap-->
           <div class="btnsGridItem7">
             <br>
-            <h4>Logout button</h4>
+            <h4>Delete my account</h4>
             <br>
-            <img
-          src="assets/images/logout.svg"
-
-          alt="Logout icon"
-          loading="lazy"
-          decoding="async"
-      /> Log out</a>
+            <span>Delete my account</span>
           <p class="paragrafbox7">
             <br>
             <b>Application:</b>
@@ -933,11 +905,20 @@
             <!--Guide knapper (step 1)-->
           <div class="btnsGridItem8">
             <br>
-            <h4>Guide buttons</h4>
+            <h4>Choose Position</h4>
             <br>
-            <button class="click" onclick="setPrc('25'), changeImage();">
-              STEP 1
-            </button>
+            <div className="dropdown-container">
+         
+              <select name="selectList" id="selectList">
+                  <option value="option 1">
+                      Wordpress developer
+                  </option>
+                   {' '}
+                  <option value="option 2">
+                      Javascript developer
+                  </option>
+              </select>
+          </div>
           <p class="paragrafbox8">
             <br>
             <b>Application:</b>
@@ -971,17 +952,35 @@
             </div>
             </div>
 
-            <!--Reset knap-->
+            <!--Resume-->
           <div class="btnsGridItem9">
             <br>
-            <h4>Reset button</h4>
+            <h4>Upload Resume and other documents buttons</h4>
             <br>
-            <button
-              id="click"
-              class="progressBtnreset"
-            >
-              RESET
-            </button>
+            <form action="/action_page.php">
+              <label htmlFor="inputTag">
+                  <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="50"
+                      height="76.462"
+                      viewBox="0 0 50 76.462"
+                      id="icon-file"
+                  >
+                      <path
+                          id="Icon_awesome-file-alt"
+                          data-name="Icon awesome-file-alt"
+                          d="M29.167,20.31V0H3.125A3.37,3.37,0,0,0,0,3.584V72.878a3.37,3.37,0,0,0,3.125,3.584h43.75A3.37,3.37,0,0,0,50,72.878V23.894H32.292A3.388,3.388,0,0,1,29.167,20.31ZM37.5,55.554a1.694,1.694,0,0,1-1.562,1.792H14.063A1.694,1.694,0,0,1,12.5,55.554V54.36a1.694,1.694,0,0,1,1.563-1.792H35.937A1.694,1.694,0,0,1,37.5,54.36ZM37.5,46a1.694,1.694,0,0,1-1.562,1.792H14.063A1.694,1.694,0,0,1,12.5,46V44.8a1.694,1.694,0,0,1,1.563-1.792H35.937A1.694,1.694,0,0,1,37.5,44.8Zm0-10.752v1.195a1.694,1.694,0,0,1-1.562,1.792H14.063A1.694,1.694,0,0,1,12.5,36.439V35.244a1.694,1.694,0,0,1,1.563-1.792H35.937A1.694,1.694,0,0,1,37.5,35.244ZM50,18.2v.911H33.333V0h.794a2.933,2.933,0,0,1,2.214,1.045L49.089,15.681A3.856,3.856,0,0,1,50,18.2Z"
+                      />
+                  </svg>
+                  Choose and upload
+                  <input
+                      type="file"
+                      id="inputTag"
+                      name="filename"
+                      placeholder="choose file"
+                  />
+              </label>
+          </form>
             <p class="paragrafbox9">
               <br>
               <b>Application:</b>
@@ -1019,22 +1018,12 @@
               </div>
               </div>
 
-          <!--Previous page knap-->
+          <!--Submit knap-->
           <div class="btnsGridItem10">
             <br>
-            <h4>Previous page button</h4>
+            <h4>Submit button</h4>
             <br>
-            <div class="footerBtns">
-              <a href="tableofcontents.html"
-                ><img
-                  src="assets/images/leftArrow.svg"
-                  alt="Left Arrow"
-                  loading="lazy"
-                  decoding="async"
-                />
-                <h4 class="previoustext">PREVIOUS PAGE</h4></a
-              >
-            </div>
+            <input class="input-submit" type="submit"></input>
             <p class="paragrafbox10">
               <br>
               <b>Application:</b>
@@ -1079,20 +1068,13 @@
               </div>
               </div>
 
-          <!-- Next page knap-->
+          <!-- Status knap-->
           <div class="btnsGridItem11">
             <br>
-            <h4>Next page button</h4>
+            <h4>Status button</h4>
             <br>
             <div class="footerBtns">
-              <a href="caution.html"
-                ><h4 class="previoustext">NEXT PAGE</h4>
-                <img
-                  src="assets/images/rightArrow.svg"
-                  alt="Right Arrow"
-                  loading="lazy"
-                  decoding="async"
-              /></a>
+              <button class="btn-save">Status on application</button>
             </div>
             <br>
             <b>Application:</b>
@@ -1100,6 +1082,7 @@
             This button will be applied so the user has the option to visit the next page they are currently on. 
           </p>
           </div>
+
           <div class="wrapper-box-button11">
             <button type="button" class="collapsible-button11">Open to see code</button>
             <div class="content-button11 invisible">
@@ -1135,20 +1118,15 @@
             </div>
             </div>
 
-            <!--Page knap-->
+            <!--Create account knap-->
           <div class="btnsGridItem12">
           <br>
-          <h4>Page button</h4>
+          <h4>Create account button</h4>
           <br>
-          <a class="searchGridpageBtn" href="missions.html" type="button">
-            PAGE 1
-            <img
-              src="assets/images/rightArrow.svg"
-              alt="Right Arrow"
-              loading="lazy"
-              decoding="async"
-            />
-          </a>
+          <div class="my-account-link">
+            <p>Create account</p>
+            
+        </div>
           <p class="paragrafbox12">
             <br>
             <b>Application:</b>
@@ -1191,55 +1169,7 @@ This button will be applied on the site with search results, so the user can vis
             </div>
             </div>
 
-          <!--Back knap-->
-          <div class="btnsGridItem13">
-          <br>
-          <h4>Back button</h4>
-          <br>
-          <div class="loginwrapperbtn">
-            <a href="tableofcontents.html" type="button" class="loginbtn">
-              BACK
-            </a>
-          </div>
-          </button>
-          <p class="paragrafbox13">
-            <br>
-            <b>Application:</b>
-            <br>
-            This button will be applied on any page where the user needs to access the previous page they were using.           </div>
-          <div class="wrapper-box-button13">
-            <button type="button" class="collapsible-button13">Open to see code</button>
-            <div class="content-button13 invisible">
-              <b>HTML:</b> <br>
-              &lt;div class="homewrapperbtn"&gt; <br>
-              &lt;a&gt; href="tableofcontents.html" type="button" class="homebtn"&gt;
-                HOME
-              &lt;/a&gt; <br>
-            &lt;/div&gt; <br>
-                <br>
-                <br>
-                <b>CSS:</b> <br>
-                .homebtn { <br>
-                  display: inline-block; <br>
-                  background-color: $clr-light-purple; <br>
-                  border: 2px solid $clr-light-purple; <br>
-                  border-radius: 4px; <br>
-                  color: black; <br>
-                  padding: 15px 32px; <br>
-                  margin-top: 50px; <br>
-                  text-decoration: none; <br>
-                  font-size: 18px; <br>
-                  font-weight: 600; <br>
-                  margin-bottom: 40px; <br>
-                } <br>
-                <br>
-          .homebtn:hover { <br>
-                  background-color: $clr-sheet-black; <br>
-                  color: $clr-text; <br>
-                } <br>
-                <br>
-            </div>
-            </div>
+         
     </section>
     <script src="script/script1.js" defer></script>
   </body>
