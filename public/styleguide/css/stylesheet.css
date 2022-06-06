@@ -1898,16 +1898,20 @@ td img {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 15px;
+    padding: 15px; background-color: #F0EEED;
+
 }
 .input-login {
     width: 100%;
+    border: none;
+    height: 50px;background-color: white;
 }
 
 .input-container p {
     padding-top: 20px;
     font-size: 1rem;
     font-weight: 400;
+    background-color: #F0EEED;
     align-self: flex-start;
 }
 
